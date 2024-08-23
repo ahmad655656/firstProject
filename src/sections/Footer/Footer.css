@@ -389,9 +389,19 @@
         margin-top: 300px;
         position: relative;
         height: 118vh;
-        width: 106vw;
+        width: 100vw;
         background-color: #122d40;
         border-radius: 70px 70px 0px 0px;
+    }
+    .buttonThreeSquare {
+        width: 253px !important;
+        height: 68px !important;
+        padding-left: 40px !important;
+        transition: all 0.5s ease-in-out;
+        font-size: 20px;
+        font-weight: 900;
+        text-align: center !important;
+        color: #122d40;
     }
     .topFooter {
         flex-direction: column;

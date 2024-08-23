@@ -117,6 +117,10 @@
     text-align: start;
 }
 @media (max-width: 480px){
+    .Shop {
+        min-height: 1430vh !important;
+        position: relative;
+    }
     .selects select {
         width: 128px;
         height: 37px;
@@ -155,19 +159,16 @@
         align-items: center;
         gap: 40px;
         flex-wrap: wrap;
-        padding-left: 116px;
+        padding-left: 39px;
     }
-    .Shop {
-        min-height: 1007vh;
-        position: relative;
-    }
+
     .RightSectionShop {
         width: 96%;
-        height: 320vh;
+        height: 466vh;
         padding-top: 250px;
         position: absolute;
         bottom: 0;
-        left: 31px;
+        left: 8px;
     }
     .flexValue{
         

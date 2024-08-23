@@ -8,8 +8,9 @@ export default function HeadInnerPages(props) {
   return (
     <>
     <Flex className={"headerCheckout"}>
-        <Title fontWeight={"400"} color={"#173850"} content={props.namePage} />
+        <Title className={"h1left"} fontWeight={"400"} color={"#173850"} content={props.namePage} />
         <Flex
+        className={"h1right"}
           width={"300px"}
           display={"flex"}
           alignItems={"center"}

@@ -84,16 +84,16 @@
 
 @media screen and (max-width: 767px) {
     .input {
-        width: 200px; /* عرض أصغر للمدخل */
-        font-size: 18px; /* تقليل حجم الخط أكثر */
-        height: 50px; /* تقليل ارتفاع المدخل أكثر */
-        padding-left: 10px; /* تقليل الحشو الداخلي أكثر */
-        transform: translateX(0); /* إزالة التحويل */
+        width: 227px !important;
+        font-size: 18px;
+        height: 50px;
+        padding-left: 10px;
+        transform: translateX(0);
     }
 
     .label {
         font-size: 14px;
-        transform: translate(-119px, 23px);
+        transform: translate(-109px, 23px);
         margin-bottom: 15px;
     }
 

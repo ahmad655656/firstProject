@@ -625,7 +625,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 468px) and (max-width: 767px) {
   .Home {
     flex-direction: column;
     padding-left: 70px;
@@ -771,6 +771,154 @@
     margin-top: 100px;
     gap: 30px;
     height: 150vh;
+  }
+}
+@media (max-width: 467px) {
+  .Home {
+    flex-direction: column;
+    padding-left: 50px;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .leftHome {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .rightHome {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .rightHome img {
+      max-width: 63%;
+      max-height: 43vh;
+      position: absolute;
+      bottom: 0;
+      border: 0.5px solid #7a7a7a;
+      border-radius: 40px;
+      padding: 5px;
+      padding-bottom: 0px;
+  }
+
+  .secondH1 {
+    font-size: 15px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+
+  .buttonHome, .buttonHome2 {
+      font-size: 8px !important;
+      height: 50px !important;
+      /* padding: 30px 33px !important; */
+  }
+
+  .bottomBar {
+    width: 100%;
+    flex-direction: column;
+    transform: translateY(0);
+  }
+
+  .sectionThreeHome {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+  }
+  .flexCardsInSmallScreen{
+    width: 100% !important;
+  }
+  .flexSmallCard{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 500px;
+    align-items: center;
+    gap: 40px;
+  }
+  .BigCardTwo {
+    min-width: 100% !important;
+    min-height: 350px !important;
+    transform: translate(0) !important;
+  }
+
+  .CardsTypeProduct {
+    gap: 20px;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .titleSectionThree{
+    padding-left: 45px;
+  }
+  .titleSectionFour {
+    padding-left: 20px;
+}
+  .titleSectionFive{
+    position: absolute;
+    left: 0;
+    margin-bottom: 100px;
+    display: flex;
+    width: 300px !important;
+    align-items: start !important;
+  }
+  .forSectionHome {
+    display: flex;
+    align-items: start !important;
+    flex-direction: column;
+    height: 80vh !important;
+    padding: 20px;
+    margin-left: 14px;
+    position: relative;
+  }
+
+  .titleSquare {
+    font-size: 40px;
+  }
+
+  .descriptionSquare {
+    font-size: 20px;
+  }
+
+  .textSquare {
+    font-size: 15px;
+  }
+  .leftSectionFor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .appleStore, .googlePlay {
+    width: 120px;
+    height: auto;
+  }
+  .applegoogle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+  }
+  .personCards {
+    padding: 20px;
+  }
+  .mobilePhoto{
+   display: none;
+  }
+
+  .sideBarCard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 30px;
+    height: 130vh;
   }
 }
 

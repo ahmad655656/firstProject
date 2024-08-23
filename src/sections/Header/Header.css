@@ -234,10 +234,10 @@
         align-items: center;
         position: relative;
     }
-    .oneSectionHeader{
-        min-width: 100%;
-        padding: 0px 40px;
-        min-height: 150px;
+    .oneSectionHeader {
+        width: 100%;
+        padding: 0px 165px !important;
+        min-height: 96px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -245,14 +245,21 @@
         justify-content: space-between;
         background-color: #122d40;
         position: fixed;
-        z-index: 368766;
-    
+        z-index: 8888888888888;
     }
+    .titleLeftSec {
+        font-size: 30px;
+        position: absolute;
+        top: 59px;
+        left: 1px;
+    }
+    
+    
     .logo{
         width: 133px !important;
         display: block;
         position: absolute;
-        left: 4px;
+        left: 24px;
         height: 50px;
         box-sizing: border-box;
     }
@@ -273,7 +280,7 @@
         width: 337px;
         height: 0vh;
         position: absolute;
-        top: 150px;
+        top: 95px;
         right: -18px;
         padding: 70px;
         display: none;
@@ -300,8 +307,8 @@
         font-size: 40px;
         display: block;
         position: absolute;
-        top: 80px;
-        right: 10px;
+        top: 50px;
+        right: 30px;
     }
     .icnCls{
         font-size: 30px;
@@ -365,14 +372,15 @@
         color: rgba(175, 174, 174, 0.15);
         font-size: 19px;
     }
-    .bottomLinks{
+    .bottomLinks {
         display: flex;
         align-items: center;
         text-align: center;
-        gap: 4px;
         /* padding-right: 164px; */
         z-index: 32345656565667;
-        width: 100%;
+        width: 101%;
+        padding: 33px;
+        padding-right: 54px;
         height: 60px;
         margin-right: 27px;
         margin-left: 23px;
@@ -380,8 +388,8 @@
         bottom: 0;
         background-color: #122d40;
     }
-    .linkSmallScreen{
-        font-size: 20px;
+    .linkSmallScreen {
+        font-size: 15px;
         font-weight: bold;
         text-align: center;
         width: 25%;
