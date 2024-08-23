@@ -1,0 +1,512 @@
+.News{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+.slider{
+    width: 100%;
+    display: flex;
+    min-height: 100% !important;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.leftRight{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.containerSlider{
+    width: 57%;
+    position: sticky;
+    min-height: 100vh !important;
+    position: sticky;
+    right: 0;
+    top: 0;
+}
+.rightSectionNews{
+    width: 37%;
+    height: 200vh;
+    position: sticky;
+    right: 20px;
+    top: 100px;
+}
+.searchInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 70px;
+    background-color: #f1f2f6;
+}
+.buttonsearch{
+    width: 200px;
+    margin: 0px !important;
+    height: 70px;
+    margin-right: 40px;
+}
+.buttonsNews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    margin-top: 30px;
+    padding: 70px;
+    background-color: #f1f2f6;
+}
+.buttonsNews button{
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+    outline: 0.5px solid #01e281;
+}
+.buttonsNews button:focus{
+    background-color: #01e281;
+    color: #173850;
+}
+
+@media (min-width: 468px) and (max-width: 768px) {
+    .News {
+        position: relative;
+        width: 100%;
+        min-height: 589vh;
+    }
+
+    .slider {
+        width: 176%;
+        display: flex;
+        min-height: 100vh !important;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        gap: 10px;
+        align-items: center;
+    }
+    .leftRight{
+        width: 100%;
+        height: 300vh;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    .containerSlider{
+        width: 57%;
+        position: sticky;
+        min-height: 100vh !important;
+        position: sticky;
+        right: 0;
+        top: 0;
+    }
+    .rightSectionNews{
+        width: 100%;
+        height: 200vh;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-bottom: 10%;
+    }
+    .searchInput{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        border-radius: 40px;
+        margin-top: 50px;
+        padding: 70px;
+        background-color: #f1f2f6;
+    }
+    .buttonsearch{
+        width: 200px;
+        margin: 0px !important;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .buttonsNews{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+        flex-wrap: wrap;
+        border-radius: 40px;
+        margin-top: 50px;
+        padding: 80px;
+        background-color: #f1f2f6;
+    }
+    .buttonsNews button{
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        margin: 10px;
+        transition: all 0.5s ease-in-out;
+        outline: 0.5px solid #01e281;
+    }
+    .buttonsNews button:focus{
+        background-color: #01e281;
+        color: #173850;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+    .News {
+        position: relative;
+        width: 100%;
+        min-height: 489vh;
+    }
+
+    .slider {
+        width: 176%;
+        display: flex;
+        min-height: 100vh !important;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        gap: 10px;
+        align-items: center;
+    }
+    .leftRight{
+        width: 100%;
+        height: 300vh;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    .containerSlider{
+        width: 57%;
+        position: sticky;
+        min-height: 100vh !important;
+        position: sticky;
+        right: 0;
+        top: 0;
+        padding-left: 200px;
+    }
+    .rightSectionNews{
+        width: 100%;
+        height: 200vh;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-bottom: 10%;
+    }
+    .searchInput{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        border-radius: 40px;
+        margin-top: 50px;
+        padding: 70px;
+        background-color: #f1f2f6;
+    }
+    .buttonsearch{
+        width: 200px;
+        margin: 0px !important;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .buttonsNews{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+        flex-wrap: wrap;
+        border-radius: 40px;
+        margin-top: 50px;
+        padding: 80px;
+        background-color: #f1f2f6;
+    }
+    .buttonsNews button{
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        margin: 10px;
+        transition: all 0.5s ease-in-out;
+        outline: 0.5px solid #01e281;
+    }
+    .buttonsNews button:focus{
+        background-color: #01e281;
+        color: #173850;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .News {
+        position: relative;
+        width: 100%;
+        min-height: 529vh;
+    }
+
+    .slider {
+        width: 176%;
+        display: flex;
+        min-height: 100vh !important;
+        flex-wrap: wrap;
+        margin-bottom: 500px;
+        gap: 10px;
+        align-items: center;
+    }
+    .leftRight{
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    .containerSlider{
+        width: 57%;
+        position: sticky;
+        min-height: 100vh !important;
+        position: sticky;
+        right: 0;
+        top: 0;
+        padding-left: 200px;
+    }
+    .rightSectionNews{
+        width: 100%;
+        height: 200vh;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-bottom: 10%;
+    }
+    .searchInput{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+        border-radius: 40px;
+        margin-top: 50px;
+        padding: 70px;
+        background-color: #f1f2f6;
+    }
+    .buttonsearch{
+        width: 200px;
+        margin: 0px !important;
+        height: 90px;
+        margin-right: 40px;
+    }
+    .buttonsNews{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        flex-wrap: wrap;
+        border-radius: 40px;
+        margin-top: 50px;
+        padding: 70px;
+        background-color: #f1f2f6;
+    }
+    .buttonsNews button{
+        width: 150px;
+        height: 60px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 300;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        margin: 10px;
+        transition: all 0.5s ease-in-out;
+        outline: 0.5px solid #01e281;
+    }
+    .buttonsNews button:focus{
+        background-color: #01e281;
+        color: #173850;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .News{
+        position: relative;
+        width: 100%;
+        min-height: 367vh;
+    }
+    .slider{
+        width: 114%;
+        display: flex;
+        min-height: 100vh !important;
+        gap: 10px;
+        align-items: center;
+        padding: 200px;
+    }
+    .leftRight{
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    .containerSlider{
+        width: 100%;
+        position: sticky;
+        min-height: 100vh !important;
+        position: sticky;
+        right: 0;
+        top: 0;
+    }
+    .rightSectionNews{
+        width: 100%;
+        height: 200vh;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-bottom: 10%;
+    }
+    .searchInput{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        border-radius: 40px;
+        margin-top: 50px;
+        padding: 70px;
+        background-color: #f1f2f6;
+    }
+    .buttonsearch{
+        width: 200px;
+        margin: 0px !important;
+        height: 70px;
+        margin-right: 40px;
+    }
+    .buttonsNews{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        flex-wrap: wrap;
+        border-radius: 40px;
+        margin-top: 30px;
+        padding: 70px;
+        background-color: #f1f2f6;
+    }
+    .buttonsNews button{
+        width: 90px;
+        height: 40px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        margin: 10px;
+        transition: all 0.5s ease-in-out;
+        outline: 0.5px solid #01e281;
+    }
+    .buttonsNews button:focus{
+        background-color: #01e281;
+        color: #173850;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1800px){
+    .News{
+        position: relative;
+        width: 100%;
+        min-height: 267vh;
+    }
+    .slider{
+        width: 114%;
+        display: flex;
+        min-height: 100vh !important;
+        gap: 10px;
+        padding-left: 200px;
+        align-items: center;
+    }
+    .leftRight {
+        width: 100%;
+        height: 116vh;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    .containerSlider{
+        width: 100%;
+        position: sticky;
+        min-height: 100vh !important;
+        position: sticky;
+        right: 0;
+        top: 0;
+    }
+    .rightSectionNews{
+        width: 100%;
+        height: 200vh;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-bottom: 10%;
+    }
+    .searchInput{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        border-radius: 40px;
+        margin-top: 50px;
+        padding: 70px;
+        background-color: #f1f2f6;
+    }
+    .buttonsearch{
+        width: 200px;
+        margin: 0px !important;
+        height: 70px;
+        margin-right: 40px;
+    }
+    .buttonsNews{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        flex-wrap: wrap;
+        border-radius: 40px;
+        margin-top: 30px;
+        padding: 70px;
+        background-color: #f1f2f6;
+    }
+    .buttonsNews button{
+        width: 120px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        margin: 10px;
+        transition: all 0.5s ease-in-out;
+        outline: 0.5px solid #01e281;
+    }
+    .buttonsNews button:focus{
+        background-color: #01e281;
+        color: #173850;
+    }
+}

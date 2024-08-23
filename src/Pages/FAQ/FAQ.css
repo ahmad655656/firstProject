@@ -1,0 +1,192 @@
+
+.FAQ {
+  width: 100%;
+  height: auto; /* اجعل الارتفاع تلقائيًا ليناسب المحتوى */
+  padding-bottom: 50px; /* إضافة هامش سفلي لتحسين التنسيق */
+}
+
+.colorIcon {
+  color: white;
+  font-size: 4vw; /* حجم الخط يعتمد على عرض الشاشة */
+}
+
+.rightFaq {
+  width: 90%;
+  max-width: 30%; /* الحفاظ على النسبة على الشاشات الكبيرة */
+  height: auto; /* الارتفاع يعتمد على المحتوى */
+  display: flex;
+  float: none; /* إزالة float لتجنب مشاكل التنسيق على الشاشات الصغيرة */
+  padding: 4vh 2vw; /* الحواف تعتمد على حجم الشاشة */
+  flex-direction: column;
+  position: static; /* إزالة position: absolute لتحسين التوافق */
+  align-items: center;
+  gap: 2vh; /* الفراغات بين العناصر */
+  background-color: #122d40;
+  border-radius: 50px;
+  margin: 0 auto; /* توسيط على الشاشات الصغيرة */
+  top: 0;
+  right: 0;
+}
+
+.labelIn {
+  transform: translate(-15vw, 2vh); /* الترجمة تعتمد على حجم الشاشة */
+}
+
+.Send {
+  width: 40vw; /* العرض يعتمد على عرض الشاشة */
+  height: 7vh; /* الارتفاع يعتمد على ارتفاع الشاشة */
+  transform: translate(10vw, 10vh); /* الترجمة تعتمد على حجم الشاشة */
+}
+
+.colorQues {
+  color: #122d40;
+  width: 10vw; /* الحجم يعتمد على عرض الشاشة */
+  height: 10vw;
+}
+
+.question {
+  width: 100%;
+  border: 0.5px solid #dddddd;
+  padding: 2vh 2vw; /* الحواف تعتمد على حجم الشاشة */
+  border-radius: 30px;
+  transition: all 1.0s ease-in-out;
+}
+
+.question:hover {
+  background: linear-gradient(45deg, #122d40, transparent);
+  color: #01e281;
+  transform: rotateX(360deg);
+}
+
+/* للشاشات الكبيرة */
+@media (min-width: 1200px) {
+  .boxForm {
+      width: 60%;
+      height: 100vh;
+      padding: 5vh 5vw; /* الحواف تعتمد على حجم الشاشة */
+      margin-top: 10vh;
+  }
+
+  .inputs {
+      margin-top: 10vh;
+  }
+
+  .btnSend {
+      width: 20vw;
+      height: 7vh;
+      text-align: center;
+      font-weight: 900 !important;
+  }
+}
+
+/* للشاشات المتوسطة */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .boxForm {
+      width: 80%;
+      height: auto;
+      padding: 4vh 4vw;
+      margin-top: 5vh;
+  }
+
+  .inputs {
+      margin-top: 5vh;
+  }
+
+  .btnSend {
+      width: 20vw;
+      height: 6vh;
+  }
+}
+
+/* للشاشات الصغيرة */
+@media (min-width: 768px) and (max-width: 991px) {
+  .boxForm {
+      width: 90%;
+      height: auto;
+      padding: 3vh 3vw;
+      margin-top: 3vh;
+  }
+
+  .inputs {
+      flex-direction: column;
+      margin-top: 3vh;
+  }
+
+  .btnSend {
+      width: 25vw;
+      height: 5vh;
+  }
+
+  .rightFaq {
+      width: 100%;
+      height: auto;
+      padding: 3vh 2vw;
+      margin-top: 5vh;
+      max-width: none; /* عرض كامل للشاشات الصغيرة */
+  }
+
+  .Send {
+      width: 50vw;
+      transform: translate(0, 5vh); /* تبسيط الترجمة للشاشات الصغيرة */
+  }
+
+  .labelIn {
+      transform: translate(-10vw, 2vh);
+  }
+
+  .colorQues {
+      width: 15vw;
+      height: 15vw;
+  }
+
+  .colorIcon {
+      font-size: 5vw; /* تكبير الأيقونات على الشاشات الصغيرة */
+  }
+}
+
+/* للشاشات الصغيرة جداً */
+@media screen and (max-width: 767px) {
+  .boxForm {
+      width: 100%;
+      padding: 2vh 2vw;
+      margin-top: 2vh;
+  }
+
+  .inputs {
+      flex-direction: column;
+      margin-top: 2vh;
+  }
+
+  .btnSend {
+      width: 35vw;
+      height: 4vh;
+  }
+
+  .rightFaq {
+      width: 100%;
+      padding: 2vh 1vw;
+      margin-top: 3vh;
+  }
+
+  .Send {
+      width: 70vw;
+      transform: translate(0, 2vh);
+  }
+
+  .labelIn {
+      transform: translate(-8vw, 2vh);
+  }
+
+  .colorQues {
+      width: 20vw;
+      height: 20vw;
+  }
+
+  .colorIcon {
+      font-size: 6vw;
+  }
+
+  .question {
+      padding: 2vh 2vw;
+  }
+}
