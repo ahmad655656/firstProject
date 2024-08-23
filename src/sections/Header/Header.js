@@ -227,17 +227,6 @@ const getTotalCount = () => {
             Best Sales
             <span>Hot</span>
           </li>
-          <li
-            onMouseOver={() => {
-              setDisplayFList("flex");
-            }}
-            onMouseLeave={() => {
-              setDisplayFList("none");
-            }}
-            className="selectOne"
-          >
-            Special Offers <BiSolidDownArrow className="iconArrow" />
-          </li>
           <FirstListHeader
             display={displayFList}
             onMouseOver={() => {
@@ -247,17 +236,6 @@ const getTotalCount = () => {
               setDisplayFList("none");
             }}
           />
-          <li
-            className="selectTwo"
-            onMouseLeave={() => {
-              setTranslate("1400px");
-            }}
-            onMouseOver={() => {
-              setTranslate("0px");
-            }}
-          >
-            Quick Find <BiSolidDownArrow className="iconArrow" />
-          </li>
           <SecondListHeader
             onMouseLeave={() => {
               setTranslate("1400px");

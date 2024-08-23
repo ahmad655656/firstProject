@@ -9,11 +9,11 @@
     .img{
         background-color:  rgba(1, 226, 129, .15);
         border-radius: 50%;
-        width: 64px;
-        height: 64px;
+        width: 84px;
+        height: 84px;
         padding: 8px;
     }
     .h1Details{
-        font-size: 20px;
+        font-size: 30px;
     }
 }

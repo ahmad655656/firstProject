@@ -66,8 +66,20 @@
 @media (max-width: 1200px) {
     .ItSelectedList {
         width: 80%; /* تغيير العرض ليكون أكثر مرونة */
-        transform: translate(20px, 210px); /* تعديل الموضع */
         padding: 15px; /* تقليل الحشو */
+        position: absolute;
+        top: 0;
+        right: -500px;
+        animation: a 1s 0.5s ease-in-out 1 alternate forwards;
+    }
+    @keyframes a {
+        from{
+            right: -500px;
+        }
+        to{
+            right: 500px;
+        }
+
     }
 
     .details {
@@ -83,16 +95,28 @@
     .coinIcon {
         font-size: 18px; /* تقليل حجم الأيقونات */
     }
+    .after{
+        display: none;
+    }
 }
+
 
 @media (max-width: 768px) {
     .ItSelectedList {
         width: 90%; /* تغيير العرض ليكون أكثر مرونة */
-        transform: translate(10px, 150px); /* تعديل الموضع */
         min-height: auto; /* السماح للارتفاع بالتكيف */
         padding: 10px; /* تقليل الحشو */
+        animation: a 1s 0.5s ease-in-out 1 alternate forwards;
     }
+    @keyframes a {
+        from{
+            right: -500px;
+        }
+        to{
+            right: 500px;
+        }
 
+    }
     .bottomField {
         height: auto; /* السماح للارتفاع بالتكيف */
         flex-direction: column; /* تغيير الاتجاه إلى عمودي */
@@ -114,16 +138,24 @@
     }
 
     .after {
-        font-size: 30px; /* تقليل حجم الأيقونة */
-        right: 10px; /* تعديل الموضع */
+        display: none;/* تعديل الموضع */
     }
 }
 
 @media (max-width: 480px) {
     .ItSelectedList {
         width: 95%; /* تغيير العرض ليكون أكثر مرونة */
-        transform: translate(5px, 100px); /* تعديل الموضع أكثر */
         padding: 5px; /* تقليل الحشو أكثر */
+        animation: a 1s 0.5s ease-in-out 1 alternate forwards;
+    }
+    @keyframes a {
+        from{
+            right: -500px;
+        }
+        to{
+            right: 500px;
+        }
+
     }
 
     .bottomField {
@@ -146,7 +178,6 @@
     }
 
     .after {
-        font-size: 24px; /* تقليل حجم الأيقونة أكثر */
-        right: 5px; /* تعديل الموضع أكثر */
+       display: none;/* تعديل الموضع أكثر */
     }
 }

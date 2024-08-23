@@ -1,5 +1,6 @@
 .Shop{
     min-height: 350vh;
+    width: 105vw !important;
 }
 .LeftRightSectionsShop{
     width: 100%;

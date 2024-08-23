@@ -12,22 +12,20 @@
 
 .rightFaq {
   width: 90%;
-  max-width: 30%; /* الحفاظ على النسبة على الشاشات الكبيرة */
-  height: auto; /* الارتفاع يعتمد على المحتوى */
+  height: auto; 
   display: flex;
-  float: none; /* إزالة float لتجنب مشاكل التنسيق على الشاشات الصغيرة */
-  padding: 4vh 2vw; /* الحواف تعتمد على حجم الشاشة */
+  float: none; 
+  padding: 4vh 2vw; 
   flex-direction: column;
-  position: static; /* إزالة position: absolute لتحسين التوافق */
+  position: static; 
   align-items: center;
-  gap: 2vh; /* الفراغات بين العناصر */
+  gap: 2vh; 
   background-color: #122d40;
   border-radius: 50px;
-  margin: 0 auto; /* توسيط على الشاشات الصغيرة */
+  margin: 0 auto; 
   top: 0;
   right: 0;
 }
-
 .labelIn {
   transform: translate(-15vw, 2vh); /* الترجمة تعتمد على حجم الشاشة */
 }
@@ -145,13 +143,30 @@
 }
 
 /* للشاشات الصغيرة جداً */
-@media screen and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
+  .FAQ{
+    width: 105vw !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .boxForm {
       width: 100%;
       padding: 2vh 2vw;
       margin-top: 2vh;
   }
-
+  .flexrightLeft{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  .BigText{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+  }
   .inputs {
       flex-direction: column;
       margin-top: 2vh;
@@ -161,13 +176,25 @@
       width: 35vw;
       height: 4vh;
   }
-
+  .leftFaq{
+    width: 100%;
+    padding-left: 0px !important;
+  }
   .rightFaq {
       width: 100%;
-      padding: 2vh 1vw;
-      margin-top: 3vh;
   }
-
+  .questions{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 95%;
+    margin-top: 50px;
+    padding-left: 12px !important;
+  }
+  .questionIcon{
+    width: 100%;
+    padding-left: 0px !important;
+  }
   .Send {
       width: 70vw;
       transform: translate(0, 2vh);

@@ -14,6 +14,7 @@ export default function FAQ(props) {
     <div className="FAQ">
       <HeadInnerPages display={"none"} namePage={"FAQ"} />
       <Flex
+      className={"flexrightLeft"}
         display={"flex"}
         alignItems={"center"}
         justifyContent={"center"}
@@ -37,6 +38,7 @@ export default function FAQ(props) {
       <Flex position={"relative"} className={"LeftRightSections"}>
         <Flex className={"leftFaq"}>
           <Flex
+            className={"questionIcon"}
             paddingLeft={"100px"}
             display={"flex"}
             width={"100%"}
@@ -55,6 +57,7 @@ export default function FAQ(props) {
             </Flex>
           </Flex>
           <Flex
+           className={"questions"}
             marginTop={"50px"}
             paddingLeft={"150px"}
             display={"flex"}
@@ -157,6 +160,7 @@ export default function FAQ(props) {
             />
           </Flex>
           <Flex
+            className={"questionIcon"}
             paddingLeft={"100px"}
             display={"flex"}
             width={"100%"}
@@ -175,6 +179,7 @@ export default function FAQ(props) {
             </Flex>
           </Flex>
           <Flex
+           className={"questions"}
             marginTop={"50px"}
             paddingLeft={"150px"}
             display={"flex"}

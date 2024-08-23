@@ -226,13 +226,16 @@
     font-size: 20px;
 }
 @media screen and (max-width: 767px) {
-    .Header{
-        min-width: 107%;
-        min-height: 186px;
+    .Header {
+        min-width: 105vw !important;
+        min-height: 17px;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
+    }
+    .right img{
+        width: 96%;
     }
     .oneSectionHeader {
         width: 100%;
@@ -339,6 +342,7 @@
     }
     .contact{
         color: white;
+        width: 105vw;
     }
     .mainList li a:hover{
         color: #01e281;
@@ -424,7 +428,7 @@
     .oneSectionHeader{
         min-width: 100%;
         padding: 0px 20px;
-        min-height: 150px;
+        min-height: 121px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -451,6 +455,15 @@
     }
     .threeSectionHeader{
        display: none ;
+    }
+    .twoSectionHeader{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 400px;
+        position: relative;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .threeSectionHeaderHidden{
         background-color: #173850;
@@ -487,6 +500,7 @@
         top: 80px;
         right: 10px;
     }
+    
     .icnCls{
         font-size: 30px;
         position: absolute;
@@ -574,6 +588,24 @@
         border-radius: 40px 40px 0px 0px;
         transition: all 0.3s ease-in-out;
     }
+    .right {
+        gap: 8px;
+        align-items: center;
+        width: 61%;
+        display: flex;
+    }    
+    .left{
+        width: 93%;    
+        padding-left: 245px;
+        gap: 0px;
+        padding-bottom: 50px;
+    }
+    .flexCallcenter{
+        width: 212px !important;
+    }
+    .left img{
+        display: none;
+    }
     .linkSmallScreen:hover{
         background-color: #01e281;
         height: 80px;
@@ -658,6 +690,7 @@
         top: 80px;
         right: 10px;
     }
+   
     .mainList{
         display: flex;
         flex-direction: column;
@@ -711,6 +744,7 @@
         color: rgba(175, 174, 174, 0.15);
         font-size: 19px;
     }
+   
     .bottomLinks{
         display: flex !important;
         align-items: center;
@@ -736,8 +770,9 @@
         border-radius: 40px 40px 0px 0px;
         transition: all 0.3s ease-in-out;
     }
+    
 }
-@media (min-width: 1024px) and (max-width: 1600px){
+@media (min-width: 1024px) and (max-width: 1678px){
     .threeSectionHeader{
         background-color: #173850;
         width: 95%;
@@ -776,14 +811,29 @@
         font-weight: 900;
         font-size: 18px;
     }
+    .right {
+        gap: 40px;
+        align-items: center;
+        width: 36%;
+        display: flex;
+    }    
+    .left{
+        width: 33%;    
+        padding-left: 245px;
+        gap: 0px;
+        padding-bottom: 50px;
+    }
+    .left img{
+        display: none;
+    }
     .rightButton{
         font-size: 21px;
     }
-    .left, .flex{
-            display: none;
-        }
+   .flex{
+    width: 457px;
+   }
        .flexCallcenter{
-        width: 330px;
+        width: 214px !important;
         height: 132px;
         display: flex;
         justify-content: space-between;

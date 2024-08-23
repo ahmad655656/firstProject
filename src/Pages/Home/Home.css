@@ -180,7 +180,10 @@
 
   .bottomBar {
     width: 100%;
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
     transform: translateY(0);
   }
 
@@ -266,6 +269,7 @@
   }
   .personCards {
     padding: 20px;
+    width: 100% !important;
   }
   .mobilePhoto{
     width: 400px;
@@ -275,10 +279,10 @@
 
   .sideBarCard {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    width: 100%;
     margin-top: 100px;
     gap: 30px;
-    height: 150vh;
   }
 }
 /* الشاشات المتوسطة (الأجهزة اللوحية) */
@@ -778,16 +782,17 @@
     flex-direction: column;
     padding-left: 50px;
     background-size: cover;
-    width: 100%;
+    width: 106vw;
   }
 
   .leftHome {
-    padding: 10px;
-    text-align: center;
+    height: 920px;
     display: flex;
+    justify-content: start;
+    align-items: start;
     flex-direction: column;
-    gap: 5px;
-  }
+    /* padding: 50px; */
+}
 
   .rightHome {
     width: 100%;
@@ -830,18 +835,23 @@
     flex-direction: column;
     gap: 20px;
     padding-left: 20px;
+    height: 257vh;
   }
   .flexCardsInSmallScreen{
     width: 100% !important;
-  }
-  .flexSmallCard{
-    width: 100%;
-    height: 130vh;
     display: flex;
     flex-direction: column;
-    padding-top: 500px;
-    align-items: center;
-    gap: 40px;
+    gap: 120px;
+    margin-top: 305px;
+}
+  .flexSmallCard{
+      width: 100%;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      transform: translateY(126px);
   }
   .BigCardTwo {
     min-width: 100% !important;

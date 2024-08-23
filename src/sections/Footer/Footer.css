@@ -162,6 +162,7 @@
 .Footer {
     margin-top: 300px;
     position: relative;
+    width: 100vw;
     height: 118vh;
     background-color: #122d40;
     border-radius: 70px 70px 0px 0px;
@@ -217,7 +218,7 @@
     margin: 60px;
 }
 .middleFooter {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #122d40;
     border-radius: 70px 70px 0px 0px;

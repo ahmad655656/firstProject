@@ -3,7 +3,7 @@ import Flex from '../Flex/Flex'
 import './DetailsBottomBarHome.css'
 export default function DetailsBottomBarHome(props) {
   return (
-    <Flex width={"420px"} padding={"0px"} display={"flex"} alignItems={"center"} gap={"20px"}>
+    <Flex className={"detailsBottomBar"} width={"420px"} padding={"0px"} display={"flex"} alignItems={"center"} gap={"20px"}>
           <img
             decoding="async"
             src={props.img}
