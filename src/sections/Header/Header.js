@@ -4,6 +4,7 @@ import {
   BiDotsVertical,
   BiGift,
   BiHeart,
+  BiHome,
   BiPhoneCall,
   BiSearch,
   BiShoppingBag,
@@ -19,9 +20,10 @@ import SecondListHeader from "../../components/SecondListHeader/SecondListHeader
 import FirstListHeader from "../../components/FirstListHeader/FirstListHeader";
 import { Link } from "react-router-dom";
 import ItemSelectedList from "../../components/ItemSelectedList/ItemSelectedList";
-import { CgCloseR } from "react-icons/cg";
+import { CgCloseR, CgProductHunt } from "react-icons/cg";
 import { ItemContext } from "../../Context/AddItemContext";
-import { FaFacebook } from "react-icons/fa6";
+import { FaFacebook, FaQ } from "react-icons/fa6";
+import { GrContact } from "react-icons/gr";
 export default function Header() {
   const [borderCall, setBorderCall] = useState("rgba(175, 174, 174, 0.15)");
   const [colorButtonCall, setColorButtonCall] = useState("white");
@@ -268,6 +270,17 @@ const getTotalCount = () => {
           <Link to="/contact">
             <li className="contact">Contact</li>
           </Link>
+          <li
+            className="selectTwo"
+            onMouseLeave={() => {
+              setTranslate("1400px");
+            }}
+            onMouseOver={() => {
+              setTranslate("0px");
+            }}
+          >
+            Quick Find <BiSolidDownArrow className="iconArrow" />
+          </li>
         </ul>
        <Flex className={"flexIconSocial"}>
         <Flex>
@@ -284,15 +297,19 @@ const getTotalCount = () => {
       <Flex width={"100%"}>
       <Flex display={"flex"} className={"bottomLinks"}>
         <Link className="linkSmallScreen" to="/">
+        <BiHome className="iconBottomLink"/>
           Home
         </Link>
         <Link className="linkSmallScreen" to="/faq">
+        <FaQ className="iconBottomLink"/>
           FAQ
         </Link>
         <Link className="linkSmallScreen" to="/contact">
+        <GrContact className="iconBottomLink"/>
           Contact
         </Link>
-        <Link className="linkSmallScreen" to="/products">
+        <Link className="linkSmallScreen" to="/shop">
+        <CgProductHunt className="iconBottomLink" />
           Products
         </Link>
       </Flex>

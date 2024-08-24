@@ -97,7 +97,7 @@
     }
 
     .sideBarCard {
-        max-height: 650px;
+        max-height: 994px;
         gap: 20px;
     }
 }
@@ -107,7 +107,9 @@
         max-height: 765px;
         gap: 15px;
     }
-
+    .personCards{
+        margin: 0px !important;
+    }
     .imgPerson {
         width: 90%;
         height: auto;
@@ -139,7 +141,7 @@
     }
 
     .sideBarCard {
-        max-height: 500px;
+        max-height: 994px;
         gap: 15px;
     }
 }

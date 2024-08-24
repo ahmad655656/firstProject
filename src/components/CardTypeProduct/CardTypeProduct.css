@@ -113,102 +113,80 @@ a{
     cursor: pointer;
     transition: all 0.2s;
 }
-/* Media Queries */
-@media (max-width: 1200px) {
-    .DetailsCard {
-        width: 350px;
-        height: auto;
-        margin-top: 80px; 
-    }
-
-    .photo {
-        width: 300px;
-        height: auto;
-    }
-
-    .h1DetailsCard {
-        font-size: 28px;
-        width: 80%; 
-    }
-
-    .stars {
-        font-size: 28px; 
-        gap: 30px; 
-    }
-}
 
 @media (max-width: 768px) {
     .DetailsCard {
-        width: 60%;
+        width: 72%;
         margin-top: 30px;
-        height: 700px; /* جعل الارتفاع تلقائي */
-        padding-bottom: 20px; /* إضافة حشو سفلي */
+        height: 700px;
+        padding-bottom: 20px;
     }
 
     .photo {
-        width: 50%; /* جعل العرض كامل */
-        height: 400px !important; /* جعل الارتفاع تلقائي */
-        margin-bottom: 10px; /* إضافة هامش سفلي */
-        border-radius: 60px;
+        width: 50%; 
+     height: 400px !important;
+        margin-bottom: 10px;
+     border-radius: 60px;
     }
 
     .h1DetailsCard {
-        font-size: 35px; /* تقليل حجم الخط أكثر */
-        width: 90%; /* زيادة العرض */
-        text-align: center; /* محاذاة النص إلى الوسط */
+        font-size: 35px; 
+        width: 90%; 
+        text-align: center; 
     }
 
     .stars {
-        font-size: 34px; /* تقليل حجم الخط أكثر */
-        gap: 15px; /* تقليل الفجوة أكثر */
+        font-size: 34px; 
+        gap: 15px; 
     }
 
    .innerButtonIcon1,
    .innerButtonIcon2,
    .innerButtonIcon3 {
-       width: auto; /* جعل العرض تلقائي */
-       font-size: 20px; /* تقليل حجم الخط */
+       width: auto; 
+       font-size: 20px; 
    }
 
    .bottomButton {
-       width: auto; /* جعل العرض تلقائي */
-       padding: 10px; /* تقلي
+       width: auto;
+       padding: 10px; 
        
    }
 }
 
 @media (max-width: 480px) {
-   .DetailsCard {
-       width: 100%; /* جعل العرض كامل */
-       margin-top: 40px; /* تقليل المسافة العلوية أكثر */
-   }
-
+    .DetailsCard {
+        width: 72% !important;
+        margin-top: 30px;
+        height: 655px;
+        padding-bottom: 20px;
+    }
    .photo {
-       width: 100%; /* جعل العرض كامل */
-       height: auto; /* جعل الارتفاع تلقائي */
+       width: 100%; 
+       height: auto; 
    }
 
    .h1DetailsCard {
-       font-size: 20px; /* تقليل حجم الخط أكثر */
-       width: 100%; /* زيادة العرض */
-       text-align: center; /* محاذاة النص إلى الوسط */
+       font-size: 20px; 
+       width: 100%; 
+       text-align: center; 
    }
 
    .stars {
-       font-size: 20px; /* تقليل حجم الخط أكثر */
-       gap: 10px; /* تقليل الفجوة أكثر */
+       font-size: 20px; 
+       gap: 10px; 
    }
 
    .innerButtonIcon1,
    .innerButtonIcon2,
    .innerButtonIcon3 {
-       width: auto; /* جعل العرض تلقائي */
-       font-size: 18px; /* تقليل حجم الخط أكثر */
+       width: auto; 
+       font-size: 18px; 
    }
 
    .bottomButton {
-       width: auto; /* جعل العرض تلقائي */
-       padding: 10px; /* تقليل الحشو */
+       width: auto; 
+       padding: 10px; 
    }
 
    .buttonBottom {

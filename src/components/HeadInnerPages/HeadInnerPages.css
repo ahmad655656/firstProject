@@ -114,27 +114,8 @@
 @media (min-width: 468px) and (max-width: 767px) {
     .headerCheckout {
         height: 140px;
-        padding: 0px 15px;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .iconHome {
-        font-size: 28px;
-    }
-    .arrowRight, .arrowch {
-        font-size: 26px;
-    }
-    .number {
-        width: 50px;
-        height: 50px;
-        font-size: 16px;
-    }
-}
-@media screen and (max-width: 467px) {
-    .headerCheckout {
-        height: 140px;
         display: flex;
-        transform: translateY(41px);
+        transform: translateY(-62px);
         padding: 0px 15px;
         text-align: center;
         flex-direction: column;
@@ -154,7 +135,51 @@
         font-size: 10px;
     }
     .flexNumberandText{
-        gap: 5px !important;
+        gap: 15px !important;
+    }
+    .flexheadr{
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 0px !important;
+        padding-left: 0px !important;
+        margin-top: 0px !important;
+    }
+    .h1right{
+        width: 516px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .fontSize{
+        font-size: 17px !important;
+    }
+}
+@media screen and (max-width: 467px) {
+    .headerCheckout {
+        height: 140px;
+        display: flex;
+        transform: translateY(41px);
+        padding: 0px 15px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-bottom: 50px;
+    }
+    .iconHome {
+        font-size: 24px;
+    }
+    .arrowRight, .arrowch {
+        font-size: 17px;
+    }
+    .number {
+        width: 30px;
+        height: 33px;
+        font-size: 14px;
+    }
+    .flexNumberandText{
+        gap: 2px !important;
     }
     .flexheadr{
         width: 97% !important;
@@ -164,7 +189,7 @@
         padding-left: 0px !important;
     }
     .fontSize{
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
 }
 

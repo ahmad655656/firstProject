@@ -60,70 +60,70 @@
 
 
   .shopNow {
-      height: 70px !important; /* تقليل الارتفاع */
-      font-size: 22px !important; /* تقليل حجم الخط */
-      padding: 0px 30px !important; /* تقليل الحشو */
-      margin-top: 80px !important; /* تقليل الهامش العلوي */
+      height: 70px !important; 
+      font-size: 22px !important; 
+      padding: 0px 30px !important; 
+      margin-top: 80px !important; 
   }
 
   .tallCardH1 {
-      font-size: 45px; /* تقليل حجم الخط */
+      font-size: 45px; 
   }
 
   .tallCardH3 {
-      font-size: 35px; /* تقليل حجم الخط */
+      font-size: 35px; 
   }
 }
 
 @media (max-width: 768px) {
-  .BigCard {
-      width: 90%; /* جعل العرض أكبر */
-      height: 600px; /* جعل الارتفاع تلقائي */
-      padding-top: 60px; /* تقليل الحشو العلوي */
-      margin-top: 200px;
-      padding-left: 20px; /* تقليل الحشو الأيسر */
-      padding-right: 20px; /* تقليل الحشو الأيمن */
-      margin-bottom: 20px; /* تقليل الهامش السفلي */
-  }
-
+    .BigCard {
+        width: 90%;
+        height: 489px;
+        padding-top: 91px;
+        margin-top: 200px;
+        padding-left: 20px;
+        transform: translateY(114px);
+        padding-right: 20px;
+        margin-bottom: 153px;
+    }
   .shopNow {
-      height: 60px !important; /* تقليل الارتفاع أكثر */
-      font-size: 20px !important; /* تقليل حجم الخط أكثر */
-      padding: 0px 20px !important; /* تقليل الحشو أكثر */
-      margin-top: 60px !important; /* تقليل الهامش العلوي أكثر */
+      height: 60px !important; 
+      font-size: 20px !important; 
+      padding: 0px 20px !important; 
+      margin-top: 60px !important; 
   }
 
   .tallCardH1 {
-      font-size: 40px; /* تقليل حجم الخط أكثر */
+      font-size: 40px; 
   }
 
   .tallCardH3 {
-      font-size: 30px; /* تقليل حجم الخط أكثر */
+      font-size: 30px; 
   }
 }
 
 @media (max-width: 480px) {
   .BigCard {
-      width: 100%; /* جعل العرض كامل */
-      height: auto; /* جعل الارتفاع تلقائي */
-      padding-top: 40px; /* تقليل الحشو العلوي أكثر */
-      padding-left: 10px; /* تقليل الحشو الأيسر أكثر */
-      padding-right: 10px; /* تقليل الحشو الأيمن أكثر */
-      margin-bottom: 10px; /* تقليل الهامش السفلي أكثر */
+      width: 100%; 
+      height: auto; 
+      padding-top: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 10px; 
   }
 
   .shopNow {
-      height: 50px !important; /* تقليل الارتفاع أكثر */
-      font-size: 18px !important; /* تقليل حجم الخط أكثر */
-      padding: 0px 10px !important; /* تقليل الحشو أكثر */
-      margin-top: 40px !important; /* تقليل الهامش العلوي أكثر */
+      height: 50px !important; 
+      font-size: 18px !important; 
+      padding: 0px 10px !important;
+      margin-top: 40px !important; 
   }
 
   .tallCardH1 {
-      font-size: 35px; /* تقليل حجم الخط أكثر */
+      font-size: 35px; 
   }
 
   .tallCardH3 {
-      font-size: 25px; /* تقليل حجم الخط أكثر */
+      font-size: 25px; 
   }
 }

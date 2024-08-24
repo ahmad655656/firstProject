@@ -152,7 +152,6 @@
   }
   .boxForm {
       width: 100%;
-      padding: 2vh 2vw;
       margin-top: 2vh;
   }
   .flexrightLeft{
@@ -182,6 +181,7 @@
   }
   .rightFaq {
       width: 100%;
+      padding-right: 87px;
   }
   .questions{
     display: flex;
@@ -191,6 +191,10 @@
     margin-top: 50px;
     padding-left: 12px !important;
   }
+  .colorQues {
+    width: 17vw;
+    height: 15vw;
+}
   .questionIcon{
     width: 100%;
     padding-left: 0px !important;
@@ -202,11 +206,6 @@
 
   .labelIn {
       transform: translate(-8vw, 2vh);
-  }
-
-  .colorQues {
-      width: 20vw;
-      height: 20vw;
   }
 
   .colorIcon {

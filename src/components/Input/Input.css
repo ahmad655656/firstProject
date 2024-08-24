@@ -38,37 +38,13 @@
 .paragreph{
     font-size: 25px;
 }
-
-/* Media Queries */
-@media (min-width: 992px) and (max-width: 1980px) {
-    .input {
-        width: 260px !important;
-        font-size: 31px;
-        height: 60px;
-        padding-left: 20px;
-        transform: translateX(-40px);
-    }
-
-    .label {
-        font-size: 15px;
-        transform: translate(10px, -32px) !important;
-        font-size: 17px;
-        transform: translate(-97px, 22px) !important;
-        margin-bottom: 30px;
-    }
-
-    .paragreph {
-        font-size: 22px; /* تقليل حجم الخط في الفقرة */
-    }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
     .input {
-        width: 200px; /* عرض أصغر للمدخل */
-        font-size: 18px; /* تقليل حجم الخط أكثر */
-        height: 50px; /* تقليل ارتفاع المدخل أكثر */
-        padding-left: 10px; /* تقليل الحشو الداخلي أكثر */
-        transform: translateX(0); /* إزالة التحويل */
+        width: 200px; 
+        font-size: 18px; 
+        height: 50px;
+        padding-left: 10px; 
+        transform: translateX(0);
     }
 
     .label {
@@ -78,15 +54,16 @@
     }
 
     .paragreph {
-        font-size: 18px; /* تقليل حجم الخط في الفقرة أكثر */
+        font-size: 18px; 
     }
 }
 
 @media screen and (max-width: 767px) {
     .input {
-        width: 227px !important;
+        width: 320px !important;
         font-size: 18px;
         height: 50px;
+        margin: auto;
         padding-left: 10px;
         transform: translateX(0);
     }
@@ -98,6 +75,6 @@
     }
 
     .paragreph {
-        font-size: 18px; /* تقليل حجم الخط في الفقرة أكثر */
+        font-size: 18px; 
     }
 }

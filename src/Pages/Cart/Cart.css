@@ -129,24 +129,6 @@
     margin-top: 20px;
     transform: translateX(250px);
 }
-
-/* للشاشات الكبيرة */
-@media (min-width: 1200px) {
-    .Cart {
-        gap: 60px;
-    }
-    .decIncNumber {
-        width: 25%;
-    }
-    .leftBox, .rightBox {
-        width: 48%;
-        height: auto;
-        margin-left: 20px;
-        padding: 20px;
-    }
-}
-
-/* للشاشات المتوسطة */
 @media (min-width: 992px) and (max-width: 1199px) {
     .Cart {
         gap: 50px;
@@ -174,11 +156,14 @@
     }
 }
 
-/* للشاشات الصغيرة */
-@media (min-width: 768px) and (max-width: 991px) {
+
+@media (min-width: 468px) and (max-width: 768px) {
     .Cart {
         gap: 40px;
         height: auto;
+    }
+    .tableItems{
+        display: none;
     }
     .decIncNumber {
         width: 60%;
@@ -190,68 +175,114 @@
         margin-left: 0;
     }
     .leftBox {
-        height: auto;
+        width: 87%;
+        display: flex;
+        background-color: #f1f2f6;
+        align-items: center;
+        height: 243vh;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+        border-radius: 40px;
+    }
+    .rightleftflex{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        gap: 50px;
     }
     .rightBox {
         height: auto;
     }
     .row {
-        gap: 100px;
+        width: 100%;
+        border: 0.5px solid #d6d5d5;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 300;
+        gap: 205px;
+        padding-right: 50px;
+        padding-left: 20px;
+    }
+    .butn {
+        height: 21px !important;
+        padding: 40px;
+        margin-top: 5px;
+        transform: translateX(110px);
+    }
+    .cards {
+        min-width: 100%;
+        max-height: 714px;
+        display: flex;
+        padding-left: 50px;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
     }
 }
-
-/* للشاشات الصغيرة جدًا */
 @media screen and (max-width: 467px) {
     .Cart {
-        gap: 30px;
+        gap: 40px;
         height: auto;
-    }
-    .rightleftflex{
-        width: 100%;
-        display: flex;
-        align-items: start;
-        gap: 50px;
-        flex-wrap: wrap;
-        height: 350vh;
     }
     .tableItems{
         display: none;
     }
-    .cards {
-        min-width: 100%;
-        max-height: 710px;
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        flex-wrap: wrap;
-    }    
     .decIncNumber {
-        width: 100%;
+        width: 60%;
         margin-left: 0;
     }
     .leftBox, .rightBox {
         width: 100%;
-        margin-left: 0;
-        padding: 10px;
-        height: auto;
-    }
-    .row {
-        flex-direction: column;
-        gap: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 18px;
-    }
-    .butn {
-        transform: translateX(0);
         padding: 20px;
-        text-align: center;
+        margin-left: 0;
     }
     .leftBox {
         width: 100%;
-        margin-left: 0;
-        padding-left: 116px;
-        height: 244vh;
+        display: flex;
+        background-color: #f1f2f6;
+        align-items: center;
+        height: 243vh;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+        border-radius: 40px;
+    }
+    .rightleftflex{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        gap: 50px;
+    }
+    .rightBox {
+        height: auto;
+    }
+    .row {
+        width: 100%;
+        border: 0.5px solid #d6d5d5;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 300;
+        gap: 105px;
+        padding-right: 50px;
+        padding-left: 20px;
+    }
+    .butn {
+        height: 21px !important;
+        padding: 20px;
+        margin-top: 5px;
+        transform: translateX(90px);
+    }
+    .cards {
+        min-width: 100%;
+        max-height: 714px;
+        display: flex;
+        padding-left: 50px;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
     }
 
 }

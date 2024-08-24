@@ -9,27 +9,27 @@
     border-radius: 40px;
 }
 
-/* Media Queries */
 @media (max-width: 1200px) {
     .topBar {
-        height: 70px; /* تقليل الارتفاع في الشاشات الأصغر */
-        margin: 0px 10px; /* تقليل الهوامش */
+        height: 70px; 
+        margin: 0px 10px;
     }
 }
 
 @media (max-width: 768px) {
     .topBar {
-        height: 60px; /* تقليل الارتفاع أكثر */
-        margin: 0px 5px; /* تقليل الهوامش أكثر */
-        padding-top: 10px; /* تقليل الحشو العلوي */
+        text-align: center;
+        height: 85px;
+        margin: 0px 5px;
+        padding-top: 1px;
     }
 }
 
 @media (max-width: 480px) {
     .topBar {
-        height: 50px; /* تقليل الارتفاع أكثر */
-        margin: 0px 2px; /* تقليل الهوامش أكثر */
-        padding-top: 8px; /* تقليل الحشو العلوي */
-        font-size: 14px; /* تقليل حجم الخط */
+        height: 50px; 
+        margin: 0px 2px;
+        padding-top: 8px; 
+        font-size: 14px; 
     }
 }

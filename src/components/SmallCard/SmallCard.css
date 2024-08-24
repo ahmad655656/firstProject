@@ -44,33 +44,34 @@
 
 @media (max-width: 768px) {
     .smallCard {
-        min-width: 100%; /* زيادة العرض في الشاشات الأصغر */
-        padding: 30px; /* تقليل الحشو أكثر */
-        margin-bottom: 10px; /* تقليل المسافة السفلية */
+        min-width: 100%;
+        padding: 30px;
+        margin-top: 146px;
+        margin-bottom: 7px;
         min-height: 400px !important;
     }
 
     .smallCardH1 {
-        font-size: 45px; /* تقليل حجم الخط أكثر */
+        font-size: 45px; 
     }
 
     .smallCardH3 {
-        font-size: 25px; /* تقليل حجم الخط أكثر */
+        font-size: 25px; 
     }
 }
 
 @media (max-width: 480px) {
     .smallCard {
-        min-width: 100%; /* عرض كامل في الشاشات الأصغر */
-        padding: 20px; /* تقليل الحشو أكثر */
-        margin-bottom: 15px; /* تقليل المسافة السفلية */
+        min-width: 100%;
+        padding: 20px; 
+        margin-bottom: 15px; 
     }
 
     .smallCardH1 {
-        font-size: 30px; /* تقليل حجم الخط أكثر */
+        font-size: 30px; 
     }
 
     .smallCardH3 {
-        font-size: 20px; /* تقليل حجم الخط أكثر */
+        font-size: 20px; 
     }
 }
