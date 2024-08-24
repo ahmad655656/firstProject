@@ -66,121 +66,6 @@
     scrollbar-width: none;
     overflow-x: scroll;
 }
-@media (min-width: 1600px){
-    .imgPerson {
-        width: 80%;
-        height: 350px;
-    }
-    .personCards{
-        width: 354px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .shadow {
-        font-size: 45px;
-        padding-top: 140px;
-        top: 18px;
-        width: 73%;
-        right: 83px;
-    }
-
-    .topPhotoPerson {
-        transform: translate(100px, 30px);
-    }
-
-    .description {
-        font-size: 20px;
-    }
-
-    .date {
-        font-size: 15px;
-    }
-
-    .sideBarCard {
-        max-height: 650px;
-        gap: 20px;
-    }
-}
-
-/* للشاشات الكبيرة */
-@media (min-width: 1200px) and (max-width: 1600px) {
-    .imgPerson {
-        width: 80%;
-        height: 350px;
-    }
-    .personCards{
-        width: 354px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .shadow {
-        font-size: 45px;
-        padding-top: 140px;
-        top: 18px;
-        width: 73%;
-        right: 83px;
-    }
-
-    .topPhotoPerson {
-        transform: translate(100px, 30px);
-    }
-
-    .description {
-        font-size: 20px;
-    }
-
-    .date {
-        font-size: 15px;
-    }
-
-    .sideBarCard {
-        max-height: 650px;
-        gap: 20px;
-    }
-}
-
-/* للشاشات المتوسطة */
-@media (min-width: 992px) and (max-width: 1199px) {
-    .imgPerson {
-        width: 350px;
-        height: 300px;
-    }
-    .personCards {
-        margin: 20px;
-        width: 80%;
-    }
-
-    .shadow {
-        font-size: 55px;
-        padding-top: 140px;
-        top: 18px;
-        width: 63%;
-        right: 133px;
-    }
-
-    .topPhotoPerson {
-        transform: translate(100px, 30px);
-    }
-
-    .description {
-        font-size: 20px;
-    }
-
-    .date {
-        font-size: 15px;
-    }
-
-    .sideBarCard {
-        max-height: 650px;
-        gap: 20px;
-    }
-}
-
-/* للشاشات الصغيرة */
 @media (min-width: 468px) and (max-width: 768.89px) {
     .imgPerson {
         width: 350px;
@@ -217,7 +102,6 @@
     }
 }
 
-/* للشاشات الصغيرة جدًا */
 @media screen and (max-width: 467px) {
     .sideBarCard {
         max-height: 765px;

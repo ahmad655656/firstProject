@@ -22,29 +22,6 @@
     transform: translateY(-20px);
     border: 2px solid #01e281;
 }
-/* Media Queries */
-@media (max-width: 1200px) {
-    .imgPerson {
-        width: 350px; /* تقليل العرض */
-        height: auto; /* جعل الارتفاع تلقائي */
-    }
-
-    .shadow {
-        font-size: 50px; /* تقليل حجم الخط */
-        padding-top: 120px; /* تعديل الحشو العلوي */
-    }
-
-    .description {
-        font-size: 28px; /* تقليل حجم الخط */
-    }
-
-    .topPhotoPerson {
-        width: 120px; /* تقليل العرض */
-        height: 40px; /* تقليل الارتفاع */
-        font-size: 18px; /* تقليل حجم الخط */
-        transform: translate(120px, 30px); /* تعديل الترجمة */
-    }
-}
 @media (min-width: 768px) and (max-width: 991px){
     .imgPerson {
         width: 80%; /* جعل العرض أكبر */

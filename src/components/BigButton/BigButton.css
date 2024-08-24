@@ -23,21 +23,6 @@
     font-size: 30px;
     transition: all 0.4s;
 }
-/* Media Queries */
-@media (min-width: 992px) and (max-width: 1980px) {
-    .giftButton {
-        height: 80px; /* تقليل الارتفاع */
-        font-size: 22px; /* تقليل حجم الخط */
-        padding: 20px; /* تقليل الحشو */
-        gap: 6px; /* تقليل الفجوة */
-        transform: translateX(30px); /* تعديل الترجمة */
-    }
-
-    .giftIcon {
-        font-size: 26px; /* تقليل حجم الأيقونة */
-    }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
     .giftButton {
         height: 70px; /* تقليل الارتفاع أكثر */
