@@ -376,7 +376,7 @@
         margin-top: 300px;
         position: relative;
         width: 100%;
-        height: 118vh;
+        height: 148vh;
         background-color: #122d40;
         border-radius: 70px 70px 0px 0px;
     }
@@ -389,20 +389,28 @@
         top: -101px;
     }
     .square h4 {
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 900;
         color: rgba(206, 228, 250, 0.2);
     }
+    .square h1 {
+        color: white;
+        font-size: 19px;
+    }
+    .square img {
+        width: 266px;
+        height: 80px;
+    }    
     .buttonThreeSquare {
-        width: 297px !important;
-        height: 69px !important;
+        width: 250px !important;
+        height: 47px !important;
         padding-left: 40px !important;
         transition: all 0.5s ease-in-out;
-        font-size: 23px;
+        font-size: 18px;
         font-weight: 900;
         text-align: center !important;
         color: #122d40;
-    }    
+    }
     .flexInput {
         width: 92%;
         height: 88px;
@@ -416,37 +424,59 @@
         padding-left: 20px !important;
         margin: 60px;
     }
-
+    .socialIcons .soIcon {
+        background-color: #1C3E56;
+        border-radius: 50%;
+        padding: 19px;
+    }
+    .topFooter {
+        flex-direction: column;
+        height: 300px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        top: -101px;
+        width: 77% !important;
+    }
     .middleFooter {
         flex-direction: column;
         align-items: flex-start;
         padding: 20px;
         gap: 20px;
-        height: auto;
+        height: 179vh;
     }
 
     .square {
         width: 100%;
         height: auto;
         padding: 20px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 140px;
+        margin-bottom: 0px !important;
     }
-
-    .bottomFooter {
-        display: none;
-    }
-
     .bottomFooter h3 {
         font-size: 18px;
         text-align: center;
     }
-    .bottomFooter img{
-        display: none;
-    }
+        .bottomFooter img {
+            width: 220px;
+        }
     .footerMenu a {
         color: white;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 14px;
+    }
+    .bottomFooter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 40px;
+        background-color: #122d40;
+        border-radius: 50px 50px 0px 0px;
+        border: 2px solid rgba(159, 182, 203, 0.2);
+        padding-left: 50px;
+        left: 0 !important;
+        position: absolute;
+        bottom: -330px;
     }
 }

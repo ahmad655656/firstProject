@@ -13,30 +13,16 @@
     transition: all 0.6s ease-in-out;
     transform: translateY(-60px);
   }
-  
-/* للشاشات الكبيرة */
-@media (min-width: 1200px) {
-  .listCards {
-      width: 85%;
-      height: 450px;
-      padding-left: 80px;
-      gap: 60px;
-      transform: translateY(-50px);
-  }
-}
-
-/* للشاشات المتوسطة */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1023px) and (max-width: 1699px) {
   .listCards {
       width: 90%;
-      height: 400px;
+      height: 300px;
       padding-left: 70px;
       gap: 50px;
-      transform: translateY(-40px);
+      transform: translateY(-60px);
   }
 }
 
-/* للشاشات الصغيرة */
 @media (min-width: 768px) and (max-width: 991px) {
   .listCards {
     width: 110%;
@@ -51,7 +37,6 @@
 }
 }
 
-/* للشاشات الصغيرة جدًا */
 @media screen and (max-width: 767px) {
   .listCards {
     width: 110%;

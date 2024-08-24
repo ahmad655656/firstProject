@@ -65,8 +65,8 @@
 /* Media Queries */
 @media (max-width: 1200px) {
     .ItSelectedList {
-        width: 80%; /* تغيير العرض ليكون أكثر مرونة */
-        padding: 15px; /* تقليل الحشو */
+        width: 80%; 
+        padding: 15px;
         position: absolute;
         top: 0;
         right: -500px;
@@ -81,19 +81,18 @@
         }
 
     }
-
     .details {
-        width: 100%; /* جعل التفاصيل تأخذ العرض الكامل */
-        padding-left: 15px; /* تقليل الحشو الداخلي */
+        width: 100%; 
+        padding-left: 15px;
     }
 
     .details h3 {
-        font-size: 18px; /* تقليل حجم الخط */
+        font-size: 18px; 
     }
 
     .cartIcon,
     .coinIcon {
-        font-size: 18px; /* تقليل حجم الأيقونات */
+        font-size: 18px; 
     }
     .after{
         display: none;
@@ -120,27 +119,27 @@
 
     }
     .bottomField {
-        height: auto; /* السماح للارتفاع بالتكيف */
-        flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+        height: auto; 
+        flex-direction: column; 
     }
 
     .details {
-        width: 100%; /* جعل التفاصيل تأخذ العرض الكامل */
-        padding-left: 10px; /* تقليل الحشو الداخلي */
-        justify-content: flex-start; /* محاذاة العناصر إلى اليسار */
+        width: 100%; 
+        padding-left: 10px; 
+        justify-content: flex-start; 
     }
 
     .details h3 {
-        font-size: 16px; /* تقليل حجم الخط أكثر */
+        font-size: 16px; 
     }
 
     .FooterList {
-        height: auto; /* السماح للارتفاع بالتكيف */
-        font-size: 14px; /* تقليل حجم الخط */
+        height: auto; 
+        font-size: 14px; 
     }
 
     .after {
-        display: none;/* تعديل الموضع */
+        display: none;
     }
 }
 

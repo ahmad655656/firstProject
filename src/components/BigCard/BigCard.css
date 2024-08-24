@@ -48,8 +48,8 @@
 }
 @media (min-width: 1023px) and (max-width: 1600px) {
     .BigCard {
-        width: 31.333%;
-        height: 859px;
+        width: 28.333%;
+        height: 704px;
         background-repeat: no-repeat;
         background-position: right bottom;
         background-size: contain;

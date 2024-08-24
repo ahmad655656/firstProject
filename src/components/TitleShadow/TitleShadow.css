@@ -20,7 +20,7 @@
   }
   @media (min-width: 1200px) and (max-width: 1600px) {
     .firstH1 {
-      font-size: 30px !important;
+      font-size: 20px !important;
       color: #01e281;
       font-weight: 900;
       width: max-content;

@@ -115,8 +115,8 @@ a{
 }
 @media (min-width: 1023px) and (max-width: 1600px){
      .DetailsCard {
-        width: 334px;
-    height: 571px;
+    width: 234px;
+    height: 471px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,13 +136,13 @@ a{
     }
 
     .h1DetailsCard {
-        font-size: 35px; 
+        font-size: 15px; 
         width: 90%; 
         text-align: center; 
     }
 
     .stars {
-        font-size: 34px; 
+        font-size: 14px; 
         gap: 15px; 
     }
 
@@ -150,12 +150,13 @@ a{
    .innerButtonIcon2,
    .innerButtonIcon3 {
        width: auto; 
-       font-size: 20px; 
+       font-size: 13px; 
    }
 
    .bottomButton {
-       width: auto;
-       padding: 10px; 
+       width: 250px !important;
+       padding: 5px !important;
+       font-size: 10px !important; 
        
    }
 
@@ -166,29 +167,6 @@ a{
      border-radius: 60px;
     }
 
-    .h1DetailsCard {
-        font-size: 35px; 
-        width: 90%; 
-        text-align: center; 
-    }
-
-    .stars {
-        font-size: 34px; 
-        gap: 15px; 
-    }
-
-   .innerButtonIcon1,
-   .innerButtonIcon2,
-   .innerButtonIcon3 {
-       width: auto; 
-       font-size: 20px; 
-   }
-
-   .bottomButton {
-       width: auto;
-       padding: 10px; 
-       
-   }
 }
 
 @media (max-width: 768px) {

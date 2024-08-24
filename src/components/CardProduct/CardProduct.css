@@ -22,6 +22,56 @@
     transform: translateY(-20px);
     border: 2px solid #01e281;
 }
+@media (min-width: 1023px) and (max-width: 1600px){
+    .imgPerson {
+        width: 50%;
+        height: auto; 
+        margin-bottom: 20px; 
+    }
+    .cardProducts{
+        width: 150px !important;
+        height: 50% !important;
+        border: 2px solid rgba(151, 150, 150, 0.15);
+        border-radius: 40px;
+        text-align: center;
+        padding: 10px 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 15px;
+        transition: all 0.7s;
+        font-weight: 800;
+        background: none;
+        box-shadow: none;
+    }
+
+    .shadow {
+        font-size: 40px; 
+        padding-top: 100px; 
+    }
+
+    .description {
+        font-size: 14px; 
+    }
+    .cardProducts img {
+        transform: rotateY(180deg) !important;
+        width: 62px;
+        height: 87px;
+    }
+    .h1Card{
+        font-size: 10px;
+    }
+    .h4Card{
+        font-size: 10px !important;
+    }
+    .topPhotoPerson {
+        width: 100px; 
+        height: 35px; 
+        font-size: 16px; 
+        transform: translate(100px, 20px); 
+    }
+}
 @media (min-width: 768px) and (max-width: 991px){
     .imgPerson {
         width: 80%; /* جعل العرض أكبر */

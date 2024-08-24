@@ -726,7 +726,7 @@
     z-index: 3476509876556;
   }
   .logo {
-    max-width: 87%;
+    max-width: 67%;
     display: block;
     height: auto;
     box-sizing: border-box;
@@ -738,7 +738,7 @@
     transform: translateX(-50%);
     color: #e0e0e0;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 18px;
   }
   .rightButton {
     box-shadow: 0 2px 0 #587c29;
@@ -748,7 +748,7 @@
     color: #262626;
     border-radius: 4px;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     margin-top: -2px;
     text-decoration: none;
@@ -767,7 +767,7 @@
   }
   .left {
     display: flex;
-    width: 43%;
+    width: 50%;
     flex-wrap: wrap;
     align-items: center;
     gap: 40px;
@@ -775,18 +775,18 @@
     float: left;
   }
   .right {
-    gap: 40px;
+    gap: 0px;
     align-items: center;
-    width: 40%;
+    width: 50%;
     display: flex;
   }
   .line {
     color: rgba(175, 174, 174, 0.15);
-    font-size: 40px;
+    font-size: 20px;
   }
   .flex {
-    width: 650px;
-    height: 54px;
+    width: 550px;
+    height: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -811,8 +811,8 @@
     border: none;
     outline: none;
     background: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     font-size: 25px;
     color: white;
     font-weight: 900;
@@ -823,19 +823,19 @@
   .button {
     border: 3px solid rgba(175, 174, 174, 0.15);
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
     background: none;
     border-radius: 50%;
     padding: 10px;
     text-align: center;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     transition: all 0.5s;
   }
   .mobleNumber {
     color: white;
-    font-size: 23px;
+    font-size: 17px;
     font-weight: 900;
     text-align: left;
   }
@@ -843,10 +843,10 @@
     position: relative;
   }
   .left img{
-    width: 361px !important;
+    width: 261px !important;
   }
   .item_count {
-    font-size: 25px;
+    font-size: 17px;
     padding: 6px;
     width: 40px;
     margin-bottom: 10px;
@@ -863,7 +863,7 @@
   .ParaCallCenter {
     color: rgba(175, 174, 174, 0.15);
     text-align: left;
-    font-size: 25px;
+    font-size: 17px;
   }
   .threeSectionHeaderHidden {
     display: none;
@@ -890,12 +890,12 @@
     align-items: center;
     gap: 30px;
     list-style: none;
-    font-size: 30px;
+    font-size: 20px;
     color: white !important;
   }
   .mainList li {
     transition: all 0.7s;
-    font-size: 21px;
+    font-size: 17px;
   }
   .mainList li a:hover {
     color: #01e281;
@@ -905,7 +905,7 @@
   }
   .mainList li a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: white !important;
     transition: all 0.5s;
     font-weight: 400;
@@ -918,7 +918,7 @@
     color: white;
     border-radius: 30px;
     padding: 0px 15px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     margin-left: 5px;
   }
@@ -932,7 +932,7 @@
   .selectTwo {
     background: none;
     color: white;
-    font-size: 17px;
+    font-size: 13px;
     display: flex;
     align-items: center;
     gap: 13px;
@@ -940,6 +940,6 @@
   
   .iconArrow {
     color: rgba(175, 174, 174, 0.15);
-    font-size: 20px;
+    font-size: 15px;
   }
 }

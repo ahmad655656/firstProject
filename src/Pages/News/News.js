@@ -63,6 +63,7 @@ export default function News() {
             onChange={(e) =>{setValueInput(e.target.value)}}
               height={"100px"}
               width={"400px"}
+              classInput={"inputNews"}
               type={"search"}
               placeholder={"Search ..."}
             />

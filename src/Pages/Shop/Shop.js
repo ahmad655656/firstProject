@@ -171,7 +171,7 @@ export default function Shop() {
             <Flex className={"flexValue"} display={"flex"} alignItems={"center"} gap={"70px"}>
               <h4>Max-Value</h4>
               <input
-                className="input"
+                className="input inputShop"
                 value={max_value}
                 onChange={(e) => {
                   setMax_Value(e.target.value);
