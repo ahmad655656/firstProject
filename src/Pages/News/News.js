@@ -10,16 +10,16 @@ import Input from "../../components/Input/Input";
 import BigButton from "../../components/BigButton/BigButton";
 import TopBarBox from "../../components/TopBarBox/TopBarBox";
 export default function News() {
-    //state تخزن قيمة البحث
-    const [valueInput, setValueInput] = useState('')
-    //state تخزن الائحة المستخدمة قبل وبعد الفلترة
-    const [value, setValue] = useState(PersonCards)
+  //state تخزن قيمة البحث
+  const [valueInput, setValueInput] = useState("");
+  //state تخزن الائحة المستخدمة قبل وبعد الفلترة
+  const [value, setValue] = useState(PersonCards);
 
-    //فلترة قائمة ااشخاص حسب المدخل في قائمة البحث 
-    const handleSearch = () =>{
-        setValue(PersonCards.filter(p => !p.topText.includes(valueInput)))
-        console.log(value);   
-    }
+  //فلترة قائمة ااشخاص حسب المدخل في قائمة البحث
+  const handleSearch = () => {
+    setValue(PersonCards.filter((p) => !p.topText.includes(valueInput)));
+    console.log(value);
+  };
   return (
     <div className="News">
       <HeadInnerPages namePage={"News"} display={"none"} />
@@ -39,15 +39,11 @@ export default function News() {
             <Title content={"Latest"} />
             <TitleShadow content={"News & Blog"} />
           </Flex>
-          <Flex
-            display={"flex"}
-            alignItems={"center"}
-            className={"slider"}
-          >
+          <Flex display={"flex"} alignItems={"center"} className={"slider"}>
             {value.map((per) => {
               return (
                 <CardPersons
-                key={per.id}
+                  key={per.id}
                   topText={per.topText}
                   image={per.image}
                   description={per.description}
@@ -60,14 +56,23 @@ export default function News() {
         <Flex className={"rightSectionNews"}>
           <Flex className={"searchInput"}>
             <Input
-            onChange={(e) =>{setValueInput(e.target.value)}}
+              onChange={(e) => {
+                setValueInput(e.target.value);
+              }}
               height={"100px"}
               width={"400px"}
               classInput={"inputNews"}
               type={"search"}
               placeholder={"Search ..."}
             />
-            <BigButton onClick={() =>{handleSearch()}} className={"buttonsearch"}>Search</BigButton>
+            <BigButton
+              onClick={() => {
+                handleSearch();
+              }}
+              className={"buttonsearch"}
+            >
+              Search
+            </BigButton>
           </Flex>
           <Flex className={"buttonsNews"}>
             <TopBarBox title={"Tags Cloud"} />

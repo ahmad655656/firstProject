@@ -210,11 +210,11 @@
   font-weight: 400;
   margin-left: 5px;
 }
-.shoppingBag{
-    display: none;
+.shoppingBag {
+  display: none;
 }
-.shoppingNumber{
-    display: none;
+.shoppingNumber {
+  display: none;
 }
 .selectOne,
 .selectTwo {
@@ -244,7 +244,7 @@
   .oneSectionHeader {
     width: 100%;
     padding: 0px 165px !important;
-    min-height: 96px;
+    min-height: 54px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -253,6 +253,7 @@
     background-color: #122d40;
     position: fixed;
     z-index: 8888888888888;
+    border-radius: 0px 0px 24px 24px;
   }
   .titleLeftSec {
     font-size: 30px;
@@ -266,6 +267,7 @@
     display: block;
     position: absolute;
     left: 24px;
+    top: 8px;
     height: 50px;
     box-sizing: border-box;
   }
@@ -281,17 +283,16 @@
   .threeSectionHeader {
     display: none;
   }
-  .shoppingBag{
+  .shoppingBag {
     display: block !important;
-   
   }
-  .shoppingNumber{
+  .shoppingNumber {
     display: block;
     position: absolute;
-    top: 52px;
+    top: 9px;
     right: 86px;
   }
-  .iconContact{
+  .iconContact {
     font-size: 40px;
   }
   .item_count2 {
@@ -308,13 +309,16 @@
     position: absolute;
     right: -17px;
     top: -9px;
-}
+  }
+  .threeSectionHeader {
+    display: none !important;
+  }
   .threeSectionHeaderHidden {
     background-color: #173850;
     width: 337px;
     height: 0vh;
     position: absolute;
-    top: 95px;
+    top: 54px;
     right: -18px;
     padding: 70px;
     display: none;
@@ -337,11 +341,11 @@
   .modileIcon {
     color: #01e281;
     margin: auto;
-    font-size: 40px;
+    font-size: 30px;
     display: block;
     position: absolute;
-    top: 50px;
-    right: 30px;
+    top: 9px;
+    right: 2px;
   }
   .icnCls {
     font-size: 30px;
@@ -419,10 +423,9 @@
     display: flex;
     align-items: center;
     text-align: center;
-    /* padding-right: 164px; */
+    justify-content: space-between;
     z-index: 32345656565667;
     width: 101%;
-    padding: 33px;
     height: 60px;
     margin-right: 27px;
     position: fixed;
@@ -430,7 +433,7 @@
     background-color: #122d40;
   }
   .linkSmallScreen {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     display: flex;
@@ -442,10 +445,10 @@
     border-radius: 40px 40px 0px 0px;
     transition: all 0.3s ease-in-out;
     align-items: center;
-}
-.iconBottomLink{
-  font-size: 22px;
-}
+  }
+  .iconBottomLink {
+    font-size: 22px;
+  }
   .linkSmallScreen:hover {
     background-color: #01e281;
     height: 80px;
@@ -453,11 +456,11 @@
     color: #122d40 !important;
   }
   .titleLeftSec {
-    font-size: 30px;
+    font-size: 23px;
     position: absolute;
-    top: 169px;
+    top: 229px;
     left: 1px;
-}
+  }
   .linkSmallScreen:hover::after {
     content: "";
     position: absolute;
@@ -501,17 +504,16 @@
     bottom: 68px;
     right: 18px;
   }
-  .shoppingBag{
+  .shoppingBag {
     display: block !important;
-   
   }
-  .shoppingNumber{
+  .shoppingNumber {
     display: block;
     position: absolute;
     top: 52px;
     right: 86px;
   }
-  .iconContact{
+  .iconContact {
     font-size: 40px;
   }
   .item_count2 {
@@ -528,7 +530,7 @@
     position: absolute;
     right: -17px;
     top: -9px;
-}
+  }
   .colorIconSocial {
     color: white !important;
   }
@@ -672,7 +674,7 @@
     border-radius: 40px 40px 0px 0px;
     transition: all 0.3s ease-in-out;
     align-items: center;
-}
+  }
   .right {
     gap: 8px;
     align-items: center;
@@ -696,7 +698,7 @@
     position: absolute;
     top: 169px;
     left: 1px;
-}
+  }
   .linkSmallScreen:hover {
     background-color: #01e281;
     height: 80px;
@@ -730,7 +732,7 @@
     display: block;
     height: auto;
     box-sizing: border-box;
-}
+  }
 
   .centerPara {
     position: absolute;
@@ -739,6 +741,9 @@
     color: #e0e0e0;
     font-weight: 900;
     font-size: 18px;
+  }
+  .flexCallcenter {
+    width: 200px !important;
   }
   .rightButton {
     box-shadow: 0 2px 0 #587c29;
@@ -842,7 +847,7 @@
   .linkShopping {
     position: relative;
   }
-  .left img{
+  .left img {
     width: 261px !important;
   }
   .item_count {
@@ -922,11 +927,11 @@
     font-weight: 400;
     margin-left: 5px;
   }
-  .shoppingBag{
-      display: none;
+  .shoppingBag {
+    display: none;
   }
-  .shoppingNumber{
-      display: none;
+  .shoppingNumber {
+    display: none;
   }
   .selectOne,
   .selectTwo {
@@ -937,7 +942,7 @@
     align-items: center;
     gap: 13px;
   }
-  
+
   .iconArrow {
     color: rgba(175, 174, 174, 0.15);
     font-size: 15px;

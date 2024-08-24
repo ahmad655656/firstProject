@@ -1,64 +1,64 @@
-.listHeader{
-    width: 900px;
-    height: 400px;
-    background-color: #122d40;
-    position: absolute;
-    top: 100px;
-    margin-left: 600px;
-    z-index: 87654;
-    display: flex;
-    padding-top: 20px;
-    padding-left: 50px;
-    border-radius: 20px;
-    gap: 56px;
-    transition: all 0.2s ease-in-out;
-  }
-  .list ul{
-    list-style: none;
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
-  }
-  .list ul:hover{
-    color: #555555 !important;
-  }
-  .list ul li{
-    color: white;
-    font-size: 20px;
-    font-weight: 900;
-    width: 127%;
-    transform: translateX(-40px);
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-  }
-  .list ul li:hover{
-    color: #01e281 !important;
-  }
-  .iconList{
-    margin-right: 10px;
-    margin-left: 20px;
-    font-size: 30px;
-    color: #837f7f !important;
-  }
-  .listHeader .list{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    gap: 5px;
-  }
-  .list h1{
-    color: #01e281;
-    font-size: 25px;
-    font-weight: 900;
-    width: 189px;
-    transform: translateX(-30px);
-  }
-  .BigLine{
-    width: 1px;
-    height: 300px;
-    background-color: #555555;
-  }
+.listHeader {
+  width: 900px;
+  height: 400px;
+  background-color: #122d40;
+  position: absolute;
+  top: 100px;
+  margin-left: 600px;
+  z-index: 87654;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 50px;
+  border-radius: 20px;
+  gap: 56px;
+  transition: all 0.2s ease-in-out;
+}
+.list ul {
+  list-style: none;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.list ul:hover {
+  color: #555555 !important;
+}
+.list ul li {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  width: 127%;
+  transform: translateX(-40px);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.list ul li:hover {
+  color: #01e281 !important;
+}
+.iconList {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #837f7f !important;
+}
+.listHeader .list {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 5px;
+}
+.list h1 {
+  color: #01e281;
+  font-size: 25px;
+  font-weight: 900;
+  width: 189px;
+  transform: translateX(-30px);
+}
+.BigLine {
+  width: 1px;
+  height: 300px;
+  background-color: #555555;
+}
 
 @media (min-width: 1023px) and (max-width: 1600px) {
   .listHeader {
@@ -72,32 +72,32 @@
     top: 86px;
     align-items: flex-start;
     justify-content: flex-start;
-}
-.listHeader .list {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  align-items: flex-end;
-  gap: 5px;
-}
+  }
+  .listHeader .list {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-end;
+    gap: 5px;
+  }
 
   .list h1 {
-      font-size: 13px; 
-      transform: translateX(0); 
+    font-size: 13px;
+    transform: translateX(0);
   }
-  .list ul{
+  .list ul {
     margin-top: 0px !important;
     transform: translateX(-25px);
   }
 
   .list ul li {
-      font-size: 10px; 
-      transform: translateX(0); 
-      width: auto; ;
+    font-size: 10px;
+    transform: translateX(0);
+    width: auto;
   }
 
   .iconList {
-      font-size: 15px; 
+    font-size: 15px;
   }
 }
 
@@ -114,58 +114,57 @@
       top: 86px;
       align-items: flex-start;
       justify-content: flex-start;
-  }
-  .listHeader .list {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    align-items: flex-end;
-    gap: 5px;
-  }
-  
-    .list h1 {
-        font-size: 13px; 
-        transform: translateX(0); 
     }
-    .list ul{
+    .listHeader .list {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      align-items: flex-end;
+      gap: 5px;
+    }
+
+    .list h1 {
+      font-size: 13px;
+      transform: translateX(0);
+    }
+    .list ul {
       margin-top: 0px !important;
       transform: translateX(-25px);
     }
-  
+
     .list ul li {
-        font-size: 10px; 
-        transform: translateX(0); 
-        width: auto; ;
+      font-size: 10px;
+      transform: translateX(0);
+      width: auto;
     }
-  
+
     .iconList {
-        font-size: 15px; 
+      font-size: 15px;
     }
   }
-  
 }
 
 @media (max-width: 480px) {
   .listHeader {
-      width: 100%; 
-      height: auto;
-      padding-left: 5px; 
-      gap: 10px; 
-      top: 20px; 
+    width: 100%;
+    height: auto;
+    padding-left: 5px;
+    gap: 10px;
+    top: 20px;
   }
 
   .list h1 {
-      font-size: 18px; 
-      transform: translateX(0); 
+    font-size: 18px;
+    transform: translateX(0);
   }
 
   .list ul li {
-      font-size: 14px; 
-      transform: translateX(0); 
-      width: auto; 
+    font-size: 14px;
+    transform: translateX(0);
+    width: auto;
   }
 
   .iconList {
-      font-size: 20px; 
+    font-size: 20px;
   }
 }

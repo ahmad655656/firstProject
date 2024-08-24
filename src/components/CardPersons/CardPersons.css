@@ -1,184 +1,185 @@
-
-.personCards{
-    width: 95%;
-    margin: 50px;
+.personCards {
+  width: 95%;
+  margin: 50px;
 }
-.imgPerson{
-    width: 450px;
-    height: 500px;
-    transition: all 0.5s ease-in-out !important;
-    border-radius: 40px;
+.imgPerson {
+  width: 450px;
+  height: 500px;
+  transition: all 0.5s ease-in-out !important;
+  border-radius: 40px;
 }
-.shadow{
-    width: 90%;
-    height: 90%;
-    background-color: #01e281;
-    opacity: 0.7;
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    border-radius: 40px;
-    font-size: 70px;
-    font-weight: 900;
-    color: white;
-    text-align: center;
-    transition: all 1.5s ease-in-out !important;
-    padding-top: 170px;
+.shadow {
+  width: 90%;
+  height: 90%;
+  background-color: #01e281;
+  opacity: 0.7;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-radius: 40px;
+  font-size: 70px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  transition: all 1.5s ease-in-out !important;
+  padding-top: 170px;
 }
-.imgPersonShadow{
-    width: 100%;
-    position: relative;
-    transition: all 1.5s ease-in-out !important;
-    height: 100%;
+.imgPersonShadow {
+  width: 100%;
+  position: relative;
+  transition: all 1.5s ease-in-out !important;
+  height: 100%;
 }
-.CardPer{
-    transition: all 1.5s ease-in-out;
+.CardPer {
+  transition: all 1.5s ease-in-out;
 }
-.date{
-    font-size: 20px;
-    color: #01e281;
-    font-weight: 900;
+.date {
+  font-size: 20px;
+  color: #01e281;
+  font-weight: 900;
 }
-.description{
-    font-size: 32px;
-    font-weight: 400;
-    width: 100%;
-    line-height: normal;
+.description {
+  font-size: 32px;
+  font-weight: 400;
+  width: 100%;
+  line-height: normal;
 }
-.topPhotoPerson{
-    width: 134px;
-    height: 50px;
-    padding: 9px;
-    font-size: 20px;
-    background-color: #173850;
-    color: white;
-    text-align: center;
-    border-radius: 30px;
-    transform: translate(153px, 40px);
-    box-shadow: 0px 0px 0px 10px white;
-    z-index: 8763554;
+.topPhotoPerson {
+  width: 134px;
+  height: 50px;
+  padding: 9px;
+  font-size: 20px;
+  background-color: #173850;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  transform: translate(153px, 40px);
+  box-shadow: 0px 0px 0px 10px white;
+  z-index: 8763554;
 }
-.sideBarCard{
+.sideBarCard {
+  min-width: 100%;
+  max-height: 800px;
+  gap: 40px;
+  align-items: center;
+  scrollbar-width: none;
+  overflow-x: scroll;
+}
+@media (min-width: 1023px) and (max-width: 1600px) {
+  .sideBarCard {
     min-width: 100%;
-    max-height: 800px;
-    gap: 40px;
+    max-height: 670px;
+    gap: 0px !important;
     align-items: center;
     scrollbar-width: none;
     overflow-x: scroll;
-}
-@media (min-width: 1023px) and (max-width: 1600px){
-    .sideBarCard {
-        min-width: 100%;
-        max-height: 670px;
-        gap: 0px !important;
-        align-items: center;
-        scrollbar-width: none;
-        overflow-x: scroll;
-    }
-    .CardPer{
-        width: 257px !important;
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 20px !important;
-    }
-    .imgPerson {
-        width: 256px;
-        height: 257px;
-        transition: all 0.5s ease-in-out !important;
-        border-radius: 40px;
-    }
-    .shadow {
-        width: 82%;
-        height: 79%;
-        background-color: #01e281;
-        opacity: 0.7;
-        position: absolute;
-        top: 22px;
-        border-radius: 40px;
-        font-size: 42px;
-        font-weight: 900;
-        color: white;
-        text-align: center;
-        transition: all 1.5s ease-in-out !important;
-        padding-top: 23% !important;
-    }
+  }
+  .CardPer {
+    width: 257px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  .imgPerson {
+    width: 256px;
+    height: 257px;
+    transition: all 0.5s ease-in-out !important;
+    border-radius: 40px;
+  }
+  .shadow {
+    width: 82%;
+    height: 79%;
+    background-color: #01e281;
+    opacity: 0.7;
+    position: absolute;
+    top: 22px;
+    border-radius: 40px;
+    font-size: 42px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    transition: all 1.5s ease-in-out !important;
+    padding-top: 23% !important;
+  }
 }
 @media (min-width: 468px) and (max-width: 768.89px) {
-    .imgPerson {
-        width: 350px;
-        height: 300px;
-    }
-    .personCards {
-        margin: 20px;
-        width: 80%;
-    }
+  .imgPerson {
+    width: 350px;
+    height: 300px;
+  }
+  .personCards {
+    margin: 20px;
+    width: 80%;
+  }
 
-    .shadow {
-        font-size: 55px;
-        padding-top: 140px;
-        top: 18px;
-        width: 63%;
-        right: 133px;
-    }
+  .shadow {
+    font-size: 55px;
+    padding-top: 140px;
+    top: 18px;
+    width: 63%;
+    right: 133px;
+  }
 
-    .topPhotoPerson {
-        transform: translate(100px, 30px);
-    }
+  .topPhotoPerson {
+    transform: translate(100px, 30px);
+  }
 
-    .description {
-        font-size: 20px;
-    }
+  .description {
+    font-size: 20px;
+  }
 
-    .date {
-        font-size: 15px;
-    }
+  .date {
+    font-size: 15px;
+  }
 
-    .sideBarCard {
-        max-height: 994px;
-        gap: 20px;
-    }
+  .sideBarCard {
+    max-height: 994px;
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 467px) {
-    .sideBarCard {
-        max-height: 765px;
-        gap: 15px;
-    }
-    .personCards{
-        margin: 0px !important;
-    }
-    .imgPerson {
-        width: 90%;
-        height: auto;
-    }
+  .sideBarCard {
+    max-height: 765px;
+    gap: 15px;
+    scale: 0.8;
+  }
 
-    .shadow {
-        width: 90%;
-        height: 90%;
-        font-size: 30px;
-        padding-top: 100px;
-        top: 10px;
-        right: 10px;
-        border-radius: 20px;
-    }
+  .imgPerson {
+    width: 90%;
+    height: auto;
+  }
+  .personCards {
+    width: 106% !important;
+    margin: 0px !important;
+  }
+  .shadow {
+    width: 90%;
+    height: 90%;
+    font-size: 30px;
+    padding-top: 100px;
+    top: 10px;
+    right: 10px;
+    border-radius: 20px;
+  }
 
-    .topPhotoPerson {
-        width: 100px;
-        height: 40px;
-        font-size: 16px;
-        transform: translate(50px, 20px);
-    }
+  .topPhotoPerson {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    transform: translate(50px, 20px);
+  }
 
-    .description {
-        font-size: 20px;
-    }
+  .description {
+    font-size: 20px;
+  }
 
-    .date {
-        font-size: 14px;
-    }
+  .date {
+    font-size: 14px;
+  }
 
-    .sideBarCard {
-        max-height: 994px;
-        gap: 15px;
-    }
+  .sideBarCard {
+    max-height: 994px;
+    gap: 15px;
+  }
 }

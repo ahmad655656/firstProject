@@ -14,7 +14,7 @@ export default function FAQ(props) {
     <div className="FAQ">
       <HeadInnerPages display={"none"} namePage={"FAQ"} />
       <Flex
-      className={"flexrightLeft"}
+        className={"flexrightLeft"}
         display={"flex"}
         alignItems={"center"}
         justifyContent={"center"}
@@ -57,7 +57,7 @@ export default function FAQ(props) {
             </Flex>
           </Flex>
           <Flex
-           className={"questions"}
+            className={"questions"}
             marginTop={"50px"}
             paddingLeft={"150px"}
             display={"flex"}
@@ -179,7 +179,7 @@ export default function FAQ(props) {
             </Flex>
           </Flex>
           <Flex
-           className={"questions"}
+            className={"questions"}
             marginTop={"50px"}
             paddingLeft={"150px"}
             display={"flex"}

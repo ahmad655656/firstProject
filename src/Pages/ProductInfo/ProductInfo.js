@@ -12,7 +12,7 @@ import { MdAttachEmail } from "react-icons/md";
 import { ThemeContext } from "../../Context/ThemeContext";
 import { ProductsInfo } from "../../data";
 export default function ProductInfo(props) {
-  const {pr,setPr} = useContext(ThemeContext)
+  const {pr} = useContext(ThemeContext)
   const[valueInput, setValueInput] = useState(0)
   const increaseValue =() =>{setValueInput(x => x+1)}
   const decrease =() =>{setValueInput(x => x-1)}
@@ -45,7 +45,7 @@ export default function ProductInfo(props) {
           <p className="BigText">
            {pro.text}
           </p>
-        <Flex marginTop={"50px"}>
+        <Flex className={"increaseAndDicreas"} marginTop={"50px"}>
         <Flex className={"decIncNumber"}>
                 <span onClick={() =>{decrease()}} className="circle">-</span>
                 <input type="number" value={valueInput} className="inputNumber" />
@@ -63,6 +63,7 @@ export default function ProductInfo(props) {
           <hr/>
           <Flex className={"Evaluate"}>
             <Flex
+            className={"rowInfo"}
               display={"flex"}
               alignItems={"center"}
               position={"relative"}
@@ -73,6 +74,7 @@ export default function ProductInfo(props) {
               <Title position={"absolute"} right={"0"} fontWeight={"400"} fontSize={"20px"} content={pro.Brand} />
             </Flex>
             <Flex
+            className={"rowInfo"}
               display={"flex"}
               alignItems={"center"}
               width={"400px"}
@@ -83,6 +85,7 @@ export default function ProductInfo(props) {
               <Title position={"absolute"} right={"0"} fontWeight={"400"} fontSize={"20px"} content={pro.SKU} />
             </Flex>
             <Flex
+            className={"rowInfo"}
               display={"flex"}
               alignItems={"center"}
               width={"400px"}
@@ -93,6 +96,7 @@ export default function ProductInfo(props) {
               <Title position={"absolute"} right={"0"} fontWeight={"400"} fontSize={"20px"} content={pro.Status} />
             </Flex>
             <Flex
+            className={"rowInfo"}
               display={"flex"}
               alignItems={"center"}
               width={"400px"}
@@ -103,6 +107,7 @@ export default function ProductInfo(props) {
               <Title position={"absolute"} right={"0"} fontWeight={"400"} fontSize={"20px"} content={pro.Tags} />
             </Flex>
             <Flex
+            className={"rowInfo"}
               display={"flex"}
               alignItems={"center"}
               width={"500px"}

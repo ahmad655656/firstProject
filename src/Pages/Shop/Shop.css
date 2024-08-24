@@ -119,7 +119,7 @@
 }
 @media (max-width: 480px){
     .Shop {
-        min-height: 1430vh !important;
+        min-height: 1322vh !important;
         position: relative;
     }
     .selects select {
@@ -146,12 +146,10 @@
         gap: 148px;
         flex-direction: column;
     }
-    .topLeft{
+    .topLeft {
         width: 100%;
         align-items: center;
-        padding-left: 116px;
         flex-wrap: wrap;
-    
     }
     .flexProducts {
         display: flex;
@@ -167,6 +165,7 @@
         padding-top: 250px;
         position: absolute;
         bottom: 0;
+        scale: 0.8;
     }
     .flexValue{
         
@@ -174,6 +173,12 @@
             align-items: center;
             gap: 43px !important;
         
+    }
+    .titleLeftSec {
+        font-size: 24px;
+        position: absolute;
+        top: 232px;
+        left: 1px;
     }
     .filterButton {
         width: 242px !important;

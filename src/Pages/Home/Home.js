@@ -26,12 +26,18 @@ export default function Home() {
           flexDirection={"column"}
         >
           <TitleShadow content={"XtraSupermarket"} />
-          <Title fontSize={"80px"} fontWeight={"600"} className="secondH1" content={"Fresher than Ever"} />
+          <Title
+            fontSize={"80px"}
+            fontWeight={"600"}
+            className="secondH1"
+            content={"Fresher than Ever"}
+          />
           <p className="paragraph">
             A supermarket is a self-service shop offering a wide variety of
             food, beverages and household products, organized into sections.
           </p>
           <Flex
+            className={"flexButn"}
             display={"flex"}
             alignItems={"center"}
             gap={"50px"}
@@ -84,14 +90,14 @@ export default function Home() {
       </Flex>
       <Flex className={"sectionThreeHome"}>
         <Flex
-        className={"flexCardsInSmallScreen"}
+          className={"flexCardsInSmallScreen"}
           display={"flex"}
           flexDirection={"column"}
           gap={"120px"}
           width={"50%"}
         >
           <Flex
-          className={"flexSmallCard"}
+            className={"flexSmallCard"}
             position={"relative"}
             transform={"translateY(-236px)"}
             display={"flex"}
@@ -133,7 +139,7 @@ export default function Home() {
           </Flex>
         </Flex>
         <BigCard
-        className={"cardBig"}
+          className={"cardBig"}
           h3={"50% OFF"}
           h1={"Sale 58% Off All Fruit Products"}
           textAlign={"start"}
@@ -152,7 +158,7 @@ export default function Home() {
         width={"100%"}
       >
         <Flex
-        className={"titleSectionThree"}
+          className={"titleSectionThree"}
           width={"850px"}
           display={"flex"}
           alignItems={"center"}
@@ -162,7 +168,7 @@ export default function Home() {
           <TitleShadow content={"Categories"} />
         </Flex>
         <Flex
-        className={"flexFardProduct"}
+          className={"flexFardProduct"}
           marginBottom={"50px"}
           marginTop={"100px"}
           display={"flex"}
@@ -225,7 +231,11 @@ export default function Home() {
           justifyContent={"space-between"}
           alignItems={"center"}
         >
-          <Flex className={"titleSectionFour titleSection"} display={"flex"} alignItems={"center"}>
+          <Flex
+            className={"titleSectionFour titleSection"}
+            display={"flex"}
+            alignItems={"center"}
+          >
             <Title content={"Best Seller"} />
             <TitleShadow content={"Products"} />
           </Flex>
@@ -237,7 +247,7 @@ export default function Home() {
           {SuperMarket.map((pro) => {
             return (
               <CardTypeProduct
-              key={pro.id}
+                key={pro.id}
                 img={pro.img}
                 price={pro.price}
                 content={pro.content}
@@ -248,7 +258,7 @@ export default function Home() {
       </Flex>
       <Flex className={"forSectionHome"} display={"flex"} alignItems={"center"}>
         <Flex
-        className={"leftSectionFor"}
+          className={"leftSectionFor"}
           display={"flex"}
           flexDirection={"column"}
           width={"50%"}
@@ -259,30 +269,58 @@ export default function Home() {
             A supermarket is a self-service shop offering a wide variety of
             food, beverages and household products, organized into sections.
           </h4>
-          <Flex className={"applegoogle"}  width={"500px"} display={"flex"} alignItems={"center"} gap={"20px"}>
-            <img className="appleStore" src="https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/05/btn2.png" alt="" />
-            <img className="googlePlay" src="https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/05/btn-1.png" alt="" />
-        </Flex>
+          <Flex
+            className={"applegoogle"}
+            width={"500px"}
+            display={"flex"}
+            alignItems={"center"}
+            gap={"20px"}
+          >
+            <img
+              className="appleStore"
+              src="https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/05/btn2.png"
+              alt=""
+            />
+            <img
+              className="googlePlay"
+              src="https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/05/btn-1.png"
+              alt=""
+            />
+          </Flex>
         </Flex>
         <img
-        className="mobilePhoto"
+          className="mobilePhoto"
           src="https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/05/mobile.png"
           alt=""
         />
-        
       </Flex>
-      <Flex className={"personCards"} display={"flex"} flexDirection={"column"} gap={"20px"}>
-        <Flex className={"titleSectionFive"} display={"flex"} alignItems={"center"} width={"800px"}>
-        <Title content={"Latest"} />
-        <TitleShadow content={"News & Blog"} />
+      <Flex
+        className={"personCards"}
+        display={"flex"}
+        flexDirection={"column"}
+        gap={"20px"}
+      >
+        <Flex
+          className={"titleSectionFive"}
+          display={"flex"}
+          alignItems={"center"}
+          width={"800px"}
+        >
+          <Title content={"Latest"} />
+          <TitleShadow content={"News & Blog"} />
         </Flex>
-       <Flex display={"flex"} alignItems={"center"} className={"sideBarCard"}>
-       {PersonCards.map((per) =>{
-        return(
-            <CardPersons topText={per.topText} image={per.image} description={per.description} date={per.date}/>
-        )
-       })}
-       </Flex>
+        <Flex display={"flex"} alignItems={"center"} className={"sideBarCard"}>
+          {PersonCards.map((per) => {
+            return (
+              <CardPersons
+                topText={per.topText}
+                image={per.image}
+                description={per.description}
+                date={per.date}
+              />
+            );
+          })}
+        </Flex>
       </Flex>
     </>
   );

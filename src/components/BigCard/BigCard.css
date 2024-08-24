@@ -1,6 +1,55 @@
 .BigCard {
-    width: 29.333%;
-    height: 900px;
+  width: 29.333%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  border-radius: 30px;
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 80px;
+  transform: translateX(280px);
+  margin-bottom: 40px;
+}
+.shopNow {
+  padding: 0px 40px !important;
+  background-color: #173850 !important;
+  color: #01e281 !important;
+  height: 80px !important;
+  font-size: 25px !important;
+  font-weight: 900 !important;
+  transition: all 0.5s !important;
+  transform: translateX(-10px) !important;
+  margin-top: 100px !important;
+}
+.shopNow a {
+  text-decoration: none;
+  color: #01e281 !important;
+  transition: all 0.5s;
+}
+.shopNow a:hover {
+  color: #173850 !important;
+}
+.shopNow:hover {
+  background-color: #01e281 !important;
+  color: #173850 !important;
+}
+.tallCardH1 {
+  font-size: 55px;
+  letter-spacing: 0px;
+  font-weight: 900;
+  color: white;
+}
+.tallCardH3 {
+  font-size: 45px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  color: white;
+}
+@media (min-width: 1023px) and (max-width: 1600px) {
+  .BigCard {
+    width: 28.333%;
+    height: 704px;
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
@@ -8,123 +57,74 @@
     padding-top: 100px;
     padding-left: 60px;
     padding-right: 80px;
-    transform: translateX(280px);
+    transform: translateX(204px);
     margin-bottom: 40px;
   }
   .shopNow {
-    padding: 0px 40px !important;
-    background-color: #173850 !important;
-    color: #01e281 !important;
-    height: 80px !important;
-    font-size: 25px !important;
-    font-weight: 900 !important;
-    transition: all 0.5s !important;
-    transform: translateX(-10px) !important;
-    margin-top: 100px !important;
-  }
-  .shopNow a{
-      text-decoration: none;
-      color: #01e281 !important;
-      transition: all 0.5s;
-  }
-  .shopNow a:hover{
-      color: #173850 !important;
-  }
-  .shopNow:hover {
-    background-color: #01e281 !important;
-    color: #173850 !important;
-  }
-  .tallCardH1{
-    font-size: 55px;
-    letter-spacing: 0px;
-    font-weight: 900;
-    color: white;
-}
-.tallCardH3{
-    font-size: 45px;
-    letter-spacing: 0px;
-    font-weight: 400;
-    color: white;
-}
-@media (min-width: 1023px) and (max-width: 1600px) {
-    .BigCard {
-        width: 28.333%;
-        height: 704px;
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: contain;
-        border-radius: 30px;
-        padding-top: 100px;
-        padding-left: 60px;
-        padding-right: 80px;
-        transform: translateX(204px);
-        margin-bottom: 40px;
-    }
-  .shopNow {
-      height: 60px !important; 
-      font-size: 20px !important; 
-      padding: 0px 30px !important; 
-      margin-top: 80px !important; 
+    height: 60px !important;
+    font-size: 20px !important;
+    padding: 0px 30px !important;
+    margin-top: 80px !important;
   }
 
   .tallCardH1 {
-      font-size: 40px; 
+    font-size: 40px;
   }
 
   .tallCardH3 {
-      font-size: 30px; 
+    font-size: 30px;
   }
 }
 
 @media (max-width: 768px) {
-    .BigCard {
-        width: 90%;
-        height: 489px;
-        padding-top: 91px;
-        margin-top: 200px;
-        padding-left: 20px;
-        transform: translateY(114px);
-        padding-right: 20px;
-        margin-bottom: 153px;
-    }
+  .BigCard {
+    width: 90%;
+    height: 489px;
+    padding-top: 91px;
+    margin-top: 200px;
+    padding-left: 20px;
+    transform: translateY(114px);
+    padding-right: 20px;
+    margin-bottom: 153px;
+  }
   .shopNow {
-      height: 60px !important; 
-      font-size: 20px !important; 
-      padding: 0px 20px !important; 
-      margin-top: 60px !important; 
+    height: 60px !important;
+    font-size: 20px !important;
+    padding: 0px 20px !important;
+    margin-top: 60px !important;
   }
 
   .tallCardH1 {
-      font-size: 40px; 
+    font-size: 40px;
   }
 
   .tallCardH3 {
-      font-size: 30px; 
+    font-size: 30px;
   }
 }
 
 @media (max-width: 480px) {
   .BigCard {
-      width: 100%; 
-      height: auto; 
-      padding-top: 40px;
-      padding-left: 10px;
-      padding-right: 10px;
-      margin-bottom: 10px; 
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
   }
 
   .shopNow {
-      height: 50px !important; 
-      font-size: 18px !important; 
-      padding: 0px 10px !important;
-      margin-top: 40px !important; 
+    height: 50px !important;
+    font-size: 18px !important;
+    padding: 0px 10px !important;
+    margin-top: 40px !important;
   }
 
   .tallCardH1 {
-      font-size: 35px; 
+    font-size: 35px;
   }
 
   .tallCardH3 {
-      font-size: 25px; 
+    font-size: 25px;
   }
 }

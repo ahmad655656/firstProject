@@ -1,72 +1,71 @@
-.giftButton{
-    height: 100px;
-    font-size: 25px;
+.giftButton {
+  height: 100px;
+  font-size: 25px;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  background-color: #01e281;
+  border: none;
+  outline: none;
+  padding: 35px;
+  border-radius: 50px;
+  text-align: center;
+  transform: translateX(50px);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.giftButton:hover {
+  background-color: #122d40;
+  color: #01e281;
+}
+.giftIcon {
+  font-size: 30px;
+  transition: all 0.4s;
+}
+@media (min-width: 1023px) and (max-width: 1591px) {
+  .giftButton {
+    height: 49px;
+    font-size: 14px;
     display: flex;
     gap: 9px;
     align-items: center;
     background-color: #01e281;
     border: none;
     outline: none;
-    padding: 35px;
+    padding: 31px;
     border-radius: 50px;
     text-align: center;
     transform: translateX(50px);
     cursor: pointer;
     transition: all 0.2s;
-   
-}
-.giftButton:hover{
-    background-color: #122d40;
-    color: #01e281;
-}
-.giftIcon{
-    font-size: 30px;
-    transition: all 0.4s;
-}
-@media (min-width: 1023px) and (max-width: 1591px) {
-    .giftButton {
-        height: 49px;
-        font-size: 14px;
-        display: flex;
-        gap: 9px;
-        align-items: center;
-        background-color: #01e281;
-        border: none;
-        outline: none;
-        padding: 31px;
-        border-radius: 50px;
-        text-align: center;
-        transform: translateX(50px);
-        cursor: pointer;
-        transition: all 0.2s;
-    }
-    .giftIcon {
-        font-size: 22px;
-    }
+  }
+  .giftIcon {
+    font-size: 22px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .giftButton {
-        height: 70px; 
-        font-size: 20px; 
-        padding: 20px; 
-        gap: 5px; 
-        transform: translateX(20px); 
-    }
+  .giftButton {
+    height: 70px;
+    font-size: 20px;
+    padding: 20px;
+    gap: 5px;
+    transform: translateX(20px);
+  }
 
-    .giftIcon {
-        font-size: 24px; 
-    }
+  .giftIcon {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .giftButton {
-        height: 57px;
-        font-size: 14px;
-        padding: 20px;
-        gap: 4px;
-        transform: translateX(10px);
-    }
-    .giftIcon {
-        font-size: 20px; 
-    }
+  .giftButton {
+    height: 57px;
+    font-size: 14px;
+    padding: 20px;
+    gap: 4px;
+    transform: translateX(10px);
+  }
+  .giftIcon {
+    font-size: 20px;
+  }
 }

@@ -32,49 +32,49 @@ export default function Header() {
   const [displayListItem, setDisplayListItem] = useState("none");
   const [listDisplay, setListDisplay] = useState("none");
   const { items } = useContext(ItemContext); // Get items and removeItem function from context
-const getTotalCount = () => {
-  return items.length;
-};
+  const getTotalCount = () => {
+    return items.length;
+  };
 
   return (
     <div className="Header">
       <Flex width={"100%"}>
-      <div className="oneSectionHeader">
-        <Link to="">
-          <img
-            style={{ width: "258px" }}
-            className="logo"
-            src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg"
-            alt="XTRA WordPress Theme on Envato Market"
+        <div className="oneSectionHeader">
+          <Link to="">
+            <img
+              style={{ width: "258px" }}
+              className="logo"
+              src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg"
+              alt="XTRA WordPress Theme on Envato Market"
+            />
+          </Link>
+          <p className="centerPara">
+            Limited time offer, Buy XTRA theme only <strong>$49</strong>
+          </p>
+          <a href="" className="rightButton">
+            Download XTRA Theme
+          </a>
+          <BiDotsVertical
+            onClick={() => {
+              setListDisplay("flex");
+            }}
+            className="modileIcon"
           />
-        </Link>
-        <p className="centerPara">
-          Limited time offer, Buy XTRA theme only <strong>$49</strong>
-        </p>
-        <a href="" className="rightButton">
-          Download XTRA Theme
-        </a>
-        <BiDotsVertical
-          onClick={() => {
-            setListDisplay("flex");
-          }}
-          className="modileIcon"
-        />
-        <Flex className={"shoppingNumber"}>
-        <Link to="cart">
+          <Flex className={"shoppingNumber"}>
+            <Link to="cart">
               <span className="item_count2">{getTotalCount()}</span>
-                <BiShoppingBag
+              <BiShoppingBag
                 className="iconContact"
-                  onMouseOver={() => {
-                    setDisplayListItem("flex");
-                  }}
-                  onMouseLeave={() => {
-                    setDisplayListItem("none");
-                  }}
-                />
-              </Link>
-        </Flex>
-      </div>
+                onMouseOver={() => {
+                  setDisplayListItem("flex");
+                }}
+                onMouseLeave={() => {
+                  setDisplayListItem("none");
+                }}
+              />
+            </Link>
+          </Flex>
+        </div>
       </Flex>
       <div className="twoSectionHeader">
         <div className="left">
@@ -140,7 +140,7 @@ const getTotalCount = () => {
           >
             <ButtonIcon className={"linkShopping"} type={"submit"}>
               <Link to="cart">
-              <span className="item_count">{getTotalCount()}</span>
+                <span className="item_count">{getTotalCount()}</span>
                 <CiShoppingBasket
                   onMouseOver={() => {
                     setDisplayListItem("flex");
@@ -170,7 +170,7 @@ const getTotalCount = () => {
         }}
         display={displayListItem}
       />
-  <div className="threeSectionHeader">
+      <div className="threeSectionHeader">
         <ul className="mainList">
           <Link to="/shop">
             <li>New Products</li>
@@ -231,7 +231,10 @@ const getTotalCount = () => {
           Daily Offers
         </BigButton>
       </div>
-      <div style={{ display: `${listDisplay}` }} className="threeSectionHeaderHidden">
+      <div
+        style={{ display: `${listDisplay}` }}
+        className="threeSectionHeaderHidden"
+      >
         <CgCloseR
           onClick={() => {
             setListDisplay("none");
@@ -282,37 +285,37 @@ const getTotalCount = () => {
             Quick Find <BiSolidDownArrow className="iconArrow" />
           </li>
         </ul>
-       <Flex className={"flexIconSocial"}>
-        <Flex>
-        <FaFacebook className="iconContact" />
-        <BsWhatsapp className="iconContact"/>
-        <BsTelegram className="iconContact"/>
+        <Flex className={"flexIconSocial"}>
+          <Flex>
+            <FaFacebook className="iconContact" />
+            <BsWhatsapp className="iconContact" />
+            <BsTelegram className="iconContact" />
+          </Flex>
+          <BigButton>
+            <BiGift className="giftIcon" />
+            Daily Offers
+          </BigButton>
         </Flex>
-       <BigButton>
-          <BiGift className="giftIcon" />
-          Daily Offers
-        </BigButton>
-       </Flex>
       </div>
       <Flex width={"100%"}>
-      <Flex display={"flex"} className={"bottomLinks"}>
-        <Link className="linkSmallScreen" to="/">
-        <BiHome className="iconBottomLink"/>
-          Home
-        </Link>
-        <Link className="linkSmallScreen" to="/faq">
-        <FaQ className="iconBottomLink"/>
-          FAQ
-        </Link>
-        <Link className="linkSmallScreen" to="/contact">
-        <GrContact className="iconBottomLink"/>
-          Contact
-        </Link>
-        <Link className="linkSmallScreen" to="/shop">
-        <CgProductHunt className="iconBottomLink" />
-          Products
-        </Link>
-      </Flex>
+        <Flex display={"flex"} className={"bottomLinks"}>
+          <Link className="linkSmallScreen" to="/">
+            <BiHome className="iconBottomLink" />
+            Home
+          </Link>
+          <Link className="linkSmallScreen" to="/faq">
+            <FaQ className="iconBottomLink" />
+            FAQ
+          </Link>
+          <Link className="linkSmallScreen" to="/contact">
+            <GrContact className="iconBottomLink" />
+            Contact
+          </Link>
+          <Link className="linkSmallScreen" to="/shop">
+            <CgProductHunt className="iconBottomLink" />
+            Products
+          </Link>
+        </Flex>
       </Flex>
     </div>
   );

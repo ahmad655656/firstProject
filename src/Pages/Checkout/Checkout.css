@@ -1,126 +1,126 @@
-.Checkout{
-    width: 100%;
-    height: 350vh;
+.Checkout {
+  width: 100%;
+  height: 350vh;
 }
 
-.sectionCode{
-    width: 93%;
-    height: 150px;
-    margin-top: 150px;
-    margin-left: 70px;
-    background-color: #f9f9f9;
-    position: relative;
-    padding-top: 40px;
-    padding-left: 150px;
+.sectionCode {
+  width: 93%;
+  height: 150px;
+  margin-top: 150px;
+  margin-left: 70px;
+  background-color: #f9f9f9;
+  position: relative;
+  padding-top: 40px;
+  padding-left: 150px;
 }
-.question h2{
-    font-size: 30px;
-    transform: translateY(2px);
-    transition: all 0.5s ease-in-out;
-    cursor: pointer;
+.question h2 {
+  font-size: 30px;
+  transform: translateY(2px);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
-.question h2:hover{
-    color: #01e281;
+.question h2:hover {
+  color: #01e281;
 }
-.codeSquare{
-    position: absolute;
-    left: -20px;
-    top: 35px;
-    color: #357db1;
-    font-size: 30px;
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    box-shadow: 2px 2px 2px 10px #f9f9f9;
+.codeSquare {
+  position: absolute;
+  left: -20px;
+  top: 35px;
+  color: #357db1;
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 10px #f9f9f9;
 }
 
 /* Media Queries */
 @media (max-width: 1200px) {
-    .sectionCode {
-        margin-left: 50px; /* تقليل الهوامش في الشاشات الأصغر */
-        padding-left: 100px; /* تقليل الحشو الجانبي */
-        height: auto; /* جعل الارتفاع تلقائي */
-        padding-top: 20px; /* تقليل الحشو العلوي */
-    }
+  .sectionCode {
+    margin-left: 50px;
+    padding-left: 100px;
+    height: auto;
+    padding-top: 20px;
+  }
 
-    .question h2 {
-        font-size: 28px; /* تقليل حجم الخط */
-    }
+  .question h2 {
+    font-size: 28px;
+  }
 
-    .codeSquare {
-        width: 70px; /* تقليل عرض المربع */
-        height: 70px; /* تقليل ارتفاع المربع */
-        font-size: 28px; /* تقليل حجم الخط داخل المربع */
-        top: 30px; /* تعديل الموضع */
-    }
+  .codeSquare {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+    top: 30px;
+  }
 }
 
 @media (max-width: 768px) {
-    .sectionCode {
-        margin-left: 30px; /* تقليل الهوامش أكثر */
-        padding-left: 50px; /* تقليل الحشو الجانبي أكثر */
-        height: auto; /* جعل الارتفاع تلقائي */
-        padding-top: 15px; /* تقليل الحشو العلوي أكثر */
-    }
+  .sectionCode {
+    margin-left: 30px;
+    padding-left: 50px;
+    height: auto;
+    padding-top: 15px;
+  }
 
-    .question h2 {
-        font-size: 24px; /* تقليل حجم الخط أكثر */
-    }
+  .question h2 {
+    font-size: 24px;
+  }
 
-    .codeSquare {
-        width: 60px; /* تقليل عرض المربع أكثر */
-        height: 60px; /* تقليل ارتفاع المربع أكثر */
-        font-size: 24px; /* تقليل حجم الخط داخل المربع أكثر */
-        top: 25px; /* تعديل الموضع أكثر */
-    }
+  .codeSquare {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    top: 25px;
+  }
 }
 
 @media (max-width: 480px) {
-    .sectionCode {
-        margin-left: 10px; /* إزالة الهوامش في الشاشات الصغيرة جدًا */
-        padding-left: 20px; /* تقليل الحشو الجانبي إلى الحد الأدنى */
-        height: auto; /* جعل الارتفاع تلقائي */
-        padding-top: 10px; /* تقليل الحشو العلوي إلى الحد الأدنى */
-    }
-    .Checkout{
-        width: 100%;
-        height: 533vh;
-    }
-    .RightTableCheckout{
-        margin-top: 600px;
-    }
-    table {
-        width: 100%;
-        margin: 10px;
-        display: none;
-    }
-    .LeftTableCheckout {
-        width: 100%;
-        gap: 20px;
-        height: 282vh !important;
-    }
-    
-    .question h2 {
-        font-size: 20px; /* تقليل حجم الخط بشكل كبير */
-    }
+  .sectionCode {
+    margin-left: 10px;
+    padding-left: 20px;
+    height: auto;
+    padding-top: 10px;
+  }
+  .Checkout {
+    width: 100%;
+    height: 533vh;
+  }
+  .RightTableCheckout {
+    margin-top: 600px;
+  }
+  table {
+    width: 100%;
+    margin: 10px;
+    display: none;
+  }
+  .LeftTableCheckout {
+    width: 100%;
+    gap: 20px;
+    height: 282vh !important;
+  }
 
-    .codeSquare {
-        width: 50px; /* تقليل عرض المربع بشكل كبير */
-        height: 50px; /* تقليل ارتفاع المربع بشكل كبير */
-        font-size: 20px; /* تقليل حجم الخط داخل المربع بشكل كبير */
-        top: 20px; /* تعديل الموضع بشكل كبير */
-    }
-    .flexBox{
-        display: flex;
-        flex-wrap: wrap;
-        height: 200vh;
-    }
-    .buttonText {
-        width: 600px;
-        height: 80px;
-        font-size: 40px !important;
-        font-weight: 900;
-        margin-right: 120px !important;
-        margin-top: 50px !important;
-    }
+  .question h2 {
+    font-size: 20px;
+  }
+
+  .codeSquare {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    top: 20px;
+  }
+  .flexBox {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200vh;
+  }
+  .buttonText {
+    width: 600px;
+    height: 80px;
+    font-size: 40px !important;
+    font-weight: 900;
+    margin-right: 120px !important;
+    margin-top: 50px !important;
+  }
 }

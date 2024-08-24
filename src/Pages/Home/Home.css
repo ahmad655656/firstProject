@@ -3,7 +3,7 @@
   height: 107vh;
   padding: 30px;
   background-color: #38cb481a;
-  background-image: url('https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/04/bg-hero.jpg');
+  background-image: url("https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/04/bg-hero.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,72 +68,72 @@
   transform: translateY(-126px);
   flex-wrap: wrap;
 }
-.sectionThreeHome{
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    width: 90%;
-    margin: auto;
+.sectionThreeHome {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width: 90%;
+  margin: auto;
 }
-.BigCardTwo{
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
-    min-width: 135% !important;
-    max-height: 450px !important;
-    text-align: left !important;
-    padding-top: 50px !important;
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-    margin-top: 20px !important;
-    transform: translate(-1268px, 438px) !important;
+.BigCardTwo {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  min-width: 135% !important;
+  max-height: 450px !important;
+  text-align: left !important;
+  padding-top: 50px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  margin-top: 20px !important;
+  transform: translate(-1268px, 438px) !important;
 }
-.viewProduct{
-    font-size: 30px;
-    font-weight: 900;
+.viewProduct {
+  font-size: 30px;
+  font-weight: 900;
 }
-.CardsTypeProduct{
-    display: flex;
-    align-items: center;
-    gap: 100px;
-    flex-wrap: wrap;
-    padding-left: 60px;
+.CardsTypeProduct {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  padding-left: 60px;
 }
-.forSectionHome{
-    background-color: #01e281;
-    background-image: url('https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/05/box-bg.jpg');
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 100px;
-    margin-left: 50px;
-    border-radius: 50px;
-    padding-left: 100px;
-    height: 85vh !important;
-    width: 95%;
+.forSectionHome {
+  background-color: #01e281;
+  background-image: url("https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/05/box-bg.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  border-radius: 50px;
+  padding-left: 100px;
+  height: 85vh !important;
+  width: 95%;
 }
-.forSectionHome img{
-    transform: translate(60px,63px);
+.forSectionHome img {
+  transform: translate(60px, 63px);
 }
-.titleSquare{
-    font-size: 72px;
-    color: white;
+.titleSquare {
+  font-size: 72px;
+  color: white;
 }
-.descriptionSquare{
-    font-size: 90px;
-    color: white;
-    font-weight: 900;
+.descriptionSquare {
+  font-size: 90px;
+  color: white;
+  font-weight: 900;
 }
-.textSquare{
-    font-size: 30px;
-    font-weight: 500;
-    width: 87%;
-    color: #e7e6e6;
+.textSquare {
+  font-size: 30px;
+  font-weight: 500;
+  width: 87%;
+  color: #e7e6e6;
 }
 .appleStore,
-.googlePlay{
-    width: 250px;
-    height: 100px;
+.googlePlay {
+  width: 250px;
+  height: 100px;
 }
 @media (min-width: 1068px) and (max-width: 1591px) {
   .Home {
@@ -141,7 +141,7 @@
     height: 107vh;
     padding: 30px;
     background-color: #38cb481a;
-    background-image: url('https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/04/bg-hero.jpg');
+    background-image: url("https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/04/bg-hero.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,8 +160,8 @@
     margin-top: 111px;
     z-index: 344;
     box-shadow: 0px 9px 27px 4px #c9c7c7;
-}
-  
+  }
+
   .secondH1 {
     font-size: 85px;
     font-weight: 900;
@@ -193,7 +193,7 @@
     font-weight: 900 !important;
     transition: all 0.7s ease-in-out !important;
     border: 2px solid #173850 !important;
-}
+  }
   .buttonHome2:hover {
     background-color: #01e281 !important;
     border: none !important;
@@ -211,12 +211,12 @@
     display: flex;
     align-items: center;
   }
-  .sectionThreeHome{
-      display: flex;
-      align-items: center;
-      gap: 60px;
-      width: 90%;
-      margin: auto;
+  .sectionThreeHome {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 90%;
+    margin: auto;
   }
   .BigCardTwo {
     background-repeat: no-repeat;
@@ -230,17 +230,17 @@
     padding-right: 50px !important;
     margin-top: 20px !important;
     transform: translate(-654px, 353px) !important;
-}
-  .viewProduct{
-      font-size: 30px;
-      font-weight: 900;
   }
-  .CardsTypeProduct{
-      display: flex;
-      align-items: center;
-      gap: 100px;
-      flex-wrap: wrap;
-      padding-left: 60px;
+  .viewProduct {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .CardsTypeProduct {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding-left: 60px;
   }
   .forSectionHome {
     background-color: #01e281;
@@ -254,17 +254,17 @@
     padding-left: 100px;
     height: 62vh !important;
     width: 79%;
-}
+  }
 
-  .forSectionHome img{
+  .forSectionHome img {
     transform: translate(-14px, 130px);
     width: 36%;
   }
-  .titleSquare{
-      font-size: 42px;
-      color: white;
+  .titleSquare {
+    font-size: 42px;
+    color: white;
   }
-  .titleSectionThree{
+  .titleSectionThree {
     width: 1138px;
     display: flex;
     align-items: center;
@@ -274,18 +274,18 @@
     font-size: 25px;
     color: white;
     font-weight: 900;
-}
-  .textSquare{
-      font-size: 20px;
-      font-weight: 500;
-      width: 87%;
-      color: #e7e6e6;
+  }
+  .textSquare {
+    font-size: 20px;
+    font-weight: 500;
+    width: 87%;
+    color: #e7e6e6;
   }
   .appleStore,
-  .googlePlay{
+  .googlePlay {
     width: 247px;
     height: 66px;
-}
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .Home {
@@ -309,14 +309,14 @@
   }
 
   .rightHome img {
-      max-width: 73%;
-      max-height: 43vh;
-      position: absolute;
-      bottom: 0;
-      border: 0.5px solid #7a7a7a;
-      border-radius: 40px;
-      padding: 5px;
-      padding-bottom: 0px;
+    max-width: 73%;
+    max-height: 43vh;
+    position: absolute;
+    bottom: 0;
+    border: 0.5px solid #7a7a7a;
+    border-radius: 40px;
+    padding: 5px;
+    padding-bottom: 0px;
   }
 
   .secondH1 {
@@ -327,7 +327,8 @@
     font-size: 18px;
   }
 
-  .buttonHome, .buttonHome2 {
+  .buttonHome,
+  .buttonHome2 {
     font-size: 20px !important;
     height: 50px !important;
     padding: 30px 33px !important;
@@ -343,9 +344,8 @@
     padding: 30px;
     margin-bottom: 10px;
     min-height: 400px !important;
-}
-.flexSmallCard{
-  
+  }
+  .flexSmallCard {
     width: 100%;
     display: flex;
     position: relative;
@@ -353,16 +353,16 @@
     flex-wrap: wrap;
     gap: 20px;
     transform: translateY(-18px);
-}
+  }
   .sectionThreeHome {
     flex-direction: column;
     gap: 20px;
     padding-left: 20px;
   }
-  .flexCardsInSmallScreen{
+  .flexCardsInSmallScreen {
     width: 100% !important;
   }
-  .flexSmallCard{
+  .flexSmallCard {
     width: 90%;
     height: 150vh;
     display: flex;
@@ -378,48 +378,50 @@
     padding: 0px 30px !important;
     margin-top: 47px !important;
     margin-bottom: 50px;
-}
+  }
   .BigCardTwo {
     min-width: 48% !important;
     min-height: 470px !important;
     transform: translate(-449px, 836px) !important;
     margin-bottom: 300px !important;
-}
-.cardBig{
-  background-image: url("https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/04/bg-4.png"), linear-gradient(90deg, rgb(1, 226, 129), rgb(1, 226, 129));
-  background-image: url(https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/04/bg-4.png), linear-gradient(90deg, rgb(1, 226, 129), rgb(1, 226, 129));
-  text-align: start;
-  width: 560px;
-  height: 408px;
-  transform: translate(-50px, 118px);
-  margin-bottom: 100px;
-}
-.flexFardProduct{
-  width: 69% !important; 
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0px !important;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  width: 90%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 60px;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  margin-left: 268px;
-}
+  }
+  .cardBig {
+    background-image: url("https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/04/bg-4.png"),
+      linear-gradient(90deg, rgb(1, 226, 129), rgb(1, 226, 129));
+    background-image: url(https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/04/bg-4.png),
+      linear-gradient(90deg, rgb(1, 226, 129), rgb(1, 226, 129));
+    text-align: start;
+    width: 560px;
+    height: 408px;
+    transform: translate(-50px, 118px);
+    margin-bottom: 100px;
+  }
+  .flexFardProduct {
+    width: 69% !important;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px !important;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 268px;
+  }
   .CardsTypeProduct {
     gap: 20px;
     padding-left: 0;
     justify-content: center;
   }
-  .titleSectionThree{
+  .titleSectionThree {
     padding-left: 65px;
   }
-  .titleSectionFour{
+  .titleSectionFour {
     padding-left: 0px;
   }
   .titleSectionFive {
@@ -429,7 +431,7 @@
     display: flex;
     width: 400px !important;
     align-items: start !important;
-}
+  }
   .forSectionHome {
     display: flex;
     align-items: start !important;
@@ -438,7 +440,7 @@
     padding: 103px;
     margin-left: 44px;
     position: relative;
-}
+  }
 
   .titleSquare {
     font-size: 40px;
@@ -451,17 +453,18 @@
   .textSquare {
     font-size: 20px;
   }
-  .leftSectionFor{
+  .leftSectionFor {
     width: 100%;
     display: flex;
     align-items: center;
     margin-left: 30px;
   }
-  .appleStore, .googlePlay {
+  .appleStore,
+  .googlePlay {
     width: 150px;
     height: auto;
   }
-  .applegoogle{
+  .applegoogle {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -471,7 +474,7 @@
   .personCards {
     padding: 20px;
   }
-  .mobilePhoto{
+  .mobilePhoto {
     width: 400px;
     height: 500px;
     transform: translate(270px, 23px) !important;
@@ -509,15 +512,15 @@
   }
 
   .rightHome img {
-      max-width: 73%;
-      max-height: 43vh;
-      position: absolute;
-      bottom: 0;
-      border: 0.5px solid #7a7a7a;
-      border-radius: 40px;
-      padding: 5px;
-      transform: translate(35px 28px);
-      padding-bottom: 0px;
+    max-width: 73%;
+    max-height: 43vh;
+    position: absolute;
+    bottom: 0;
+    border: 0.5px solid #7a7a7a;
+    border-radius: 40px;
+    padding: 5px;
+    transform: translate(35px 28px);
+    padding-bottom: 0px;
   }
 
   .secondH1 {
@@ -528,9 +531,10 @@
     font-size: 18px;
   }
 
-  .buttonHome, .buttonHome2 {
-      font-size: 11px !important;
-      height: 60px !important;
+  .buttonHome,
+  .buttonHome2 {
+    font-size: 11px !important;
+    height: 60px !important;
   }
 
   .bottomBar {
@@ -544,10 +548,10 @@
     gap: 20px;
     padding-left: 20px;
   }
-  .flexCardsInSmallScreen{
+  .flexCardsInSmallScreen {
     width: 100% !important;
   }
-  .flexSmallCard{
+  .flexSmallCard {
     width: 100%;
     height: 150vh;
     display: flex;
@@ -561,22 +565,22 @@
     min-height: 398px !important;
     transform: translate(-7px, -1423px) !important;
     margin-bottom: 457px !important;
-}
-.titleSquare {
-  font-size: 15px;
-}
+  }
+  .titleSquare {
+    font-size: 15px;
+  }
   .CardsTypeProduct {
     gap: 20px;
     padding-left: 0;
     justify-content: center;
   }
-  .titleSectionThree{
+  .titleSectionThree {
     padding-left: 65px;
   }
   .titleSectionFour {
     padding-left: 20px;
-}
-  .titleSectionFive{
+  }
+  .titleSectionFive {
     position: absolute;
     left: 0;
     margin-bottom: 100px;
@@ -605,17 +609,18 @@
   .textSquare {
     font-size: 20px;
   }
-  .leftSectionFor{
+  .leftSectionFor {
     width: 100%;
     display: flex;
     align-items: center;
     margin-left: 30px;
   }
-  .appleStore, .googlePlay {
+  .appleStore,
+  .googlePlay {
     width: 150px;
     height: auto;
   }
-  .applegoogle{
+  .applegoogle {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -625,8 +630,8 @@
   .personCards {
     padding: 20px;
   }
-  .mobilePhoto{
-   display: none;
+  .mobilePhoto {
+    display: none;
   }
 
   .sideBarCard {
@@ -652,10 +657,10 @@
     align-items: start;
     flex-direction: column;
     /* padding: 50px; */
-}
-.titleSquare {
-  font-size: 1rem;
-}
+  }
+  .titleSquare {
+    font-size: 1rem;
+  }
 
   .rightHome {
     width: 100%;
@@ -664,15 +669,15 @@
   }
 
   .rightHome img {
-      max-width: 63%;
-      max-height: 43vh;
-      position: absolute;
-      bottom: 0;
-      border: 0.5px solid #7a7a7a;
-      border-radius: 40px;
-      transform: translate(35px, 28px) !important;
-      padding: 5px;
-      padding-bottom: 0px;
+    max-width: 63%;
+    max-height: 43vh;
+    position: absolute;
+    bottom: 0;
+    border: 0.5px solid #7a7a7a;
+    border-radius: 40px;
+    transform: translate(35px, 28px) !important;
+    padding: 5px;
+    padding-bottom: 0px;
   }
 
   .secondH1 {
@@ -683,10 +688,11 @@
     font-size: 12px;
   }
 
-  .buttonHome, .buttonHome2 {
-      font-size: 8px !important;
-      height: 50px !important;
-      /* padding: 30px 33px !important; */
+  .buttonHome,
+  .buttonHome2 {
+    font-size: 8px !important;
+    height: 50px !important;
+    /* padding: 30px 33px !important; */
   }
 
   .bottomBar {
@@ -699,24 +705,24 @@
     flex-direction: column;
     gap: 20px;
     padding-left: 20px;
-    height: 249vh;
+    height: 278vh;
   }
-  .flexCardsInSmallScreen{
+  .flexCardsInSmallScreen {
     width: 100% !important;
     display: flex;
     flex-direction: column;
-    height: 797px;
+    height: 981px;
     gap: 120px;
     margin-top: 305px;
-}
-  .flexSmallCard{
-      width: 100%;
-      display: flex;
-      position: relative;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      transform: translateY(126px);
+  }
+  .flexSmallCard {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transform: translateY(126px);
   }
   .BigCardTwo {
     min-width: 100% !important;
@@ -729,13 +735,13 @@
     padding-left: 0;
     justify-content: center;
   }
-  .titleSectionThree{
+  .titleSectionThree {
     padding-left: 45px;
   }
   .titleSectionFour {
     padding-left: 20px;
-}
-  .titleSectionFive{
+  }
+  .titleSectionFive {
     position: absolute;
     left: 0;
     margin-bottom: 100px;
@@ -751,17 +757,17 @@
     width: 80%;
     margin-left: 43px;
     position: relative;
-}
+  }
 
   .descriptionSquare {
     font-size: 17px;
-}
+  }
 
-.textSquare {
-  font-size: 19px;
-  width: 226%;
-}
-  .leftSectionFor{
+  .textSquare {
+    font-size: 19px;
+    width: 226%;
+  }
+  .leftSectionFor {
     width: 100%;
     display: flex;
     align-items: center;
@@ -769,12 +775,13 @@
   }
   .forSectionHome img {
     transform: translate(109px, -1px);
-}
-  .appleStore, .googlePlay {
+  }
+  .appleStore,
+  .googlePlay {
     width: 120px;
     height: auto;
   }
-  .applegoogle{
+  .applegoogle {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -784,18 +791,28 @@
   .personCards {
     padding: 20px;
   }
-  .mobilePhoto{
-   display: none;
+  .mobilePhoto {
+    display: none;
   }
-  .flexFardProduct{
+  .flexFardProduct {
     width: 100% !important;
     display: flex !important;
     align-items: center !important;
     flex-wrap: wrap !important;
-    padding-left: 48px !important;
+    padding-left: 32px !important;
     gap: 26px !important;
     margin-top: 100px !important;
     margin-bottom: 50px !important;
+  }
+  .flexButn {
+    width: max-content;
+    height: 148px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    left: -7px;
+    top: 245px;
   }
 
   .sideBarCard {
@@ -806,4 +823,3 @@
     height: 130vh;
   }
 }
-

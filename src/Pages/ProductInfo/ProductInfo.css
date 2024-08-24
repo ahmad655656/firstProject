@@ -147,10 +147,13 @@
 @media (max-width: 468px){
     .ProductInfo {
         width: 100%;
-        height: 337vh;
+        height: 313vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .increaseAndDicreas{
+        scale: 0.8;
     }
     .leftProduct {
         width: 100%;
@@ -163,15 +166,18 @@
         height: 100vh;
         padding-top: 70px;
     }
+    .infoForProduct {
+        color: #676767;
+        line-height: 1.75;
+        font-size: 18px;
+    }    
     .SocialLinks {
-        width: 105%;
-        background-color: #dddddd;
-        text-align: center;
-        padding: 31px;
-        padding-left: 41px;
-        font-size: 52px;
-        display: flex;
-        gap: 30px;
-        border-radius: 40px;
+        display: none;
+    }
+    .rowInfo{
+        width: 285px !important;
+        display: flex !important;
+        position: relative !important;
+        align-items: center !important;
     }
 }

@@ -15,26 +15,26 @@ import Container from "./components/Container/Container";
 function App() {
   return (
     <div className="App">
-        <ThemeProvider>
-      <TypeProvider>
-        <ItemProvider>
-        <Router>
-        <Container>
-        <Routes>
-          <Route path="" element={<Home />} />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/productInfo" element={<ProductInfo />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/news" element={<News />} />
-        </Routes>
-        </Container>
-      </Router>
-      </ItemProvider>
-      </TypeProvider>
-    </ThemeProvider>
+      <ThemeProvider>
+        <TypeProvider>
+          <ItemProvider>
+            <Router>
+              <Container>
+                <Routes>
+                  <Route path="" element={<Home />} />
+                  <Route path="/checkout" element={<Checkout />} />
+                  <Route path="/cart" element={<Cart />} />
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path="/shop" element={<Shop />} />
+                  <Route path="/productInfo" element={<ProductInfo />} />
+                  <Route path="/faq" element={<FAQ />} />
+                  <Route path="/news" element={<News />} />
+                </Routes>
+              </Container>
+            </Router>
+          </ItemProvider>
+        </TypeProvider>
+      </ThemeProvider>
     </div>
   );
 }

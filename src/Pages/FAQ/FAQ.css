@@ -1,11 +1,11 @@
 .FAQ {
   width: 100%;
-  height: auto; /* اجعل الارتفاع تلقائيًا ليناسب المحتوى */
-  padding-bottom: 50px; 
+  height: auto;
+  padding-bottom: 50px;
 }
 .colorIcon {
   color: white;
-  font-size: 4vw; /* حجم الخط يعتمد على عرض الشاشة */
+  font-size: 4vw;
 }
 
 .rightFaq {
@@ -25,25 +25,30 @@
   right: 0;
 }
 .labelIn {
-  transform: translate(-15vw, 2vh); /* الترجمة تعتمد على حجم الشاشة */
+  transform: translate(-15vw, 2vh);
 }
 
 .Send {
-  width: 40vw; /* العرض يعتمد على عرض الشاشة */
-  height: 7vh; /* الارتفاع يعتمد على ارتفاع الشاشة */
-  transform: translate(10vw, 10vh); /* الترجمة تعتمد على حجم الشاشة */
+  width: 40vw;
+  height: 7vh;
+  transform: translate(10vw, 10vh);
 }
 
 .colorQues {
   color: #122d40;
-  width: 10vw; /* الحجم يعتمد على عرض الشاشة */
+  width: 10vw;
   height: 10vw;
 }
-
+.boxForm {
+  width: 80%;
+  height: auto;
+  padding: 4vh 4vw;
+  margin-top: 5vh;
+}
 .question {
   width: 100%;
   border: 0.5px solid #dddddd;
-  padding: 2vh 2vw; /* الحواف تعتمد على حجم الشاشة */
+  padding: 2vh 2vw;
   border-radius: 30px;
   transition: all 1s ease-in-out;
 }
@@ -53,7 +58,7 @@
   color: #01e281;
   transform: rotateX(360deg);
 }
-@media (min-width: 1023px) and (max-width: 1599px) {
+@media (min-width: 1023px) and (max-width: 1699px) {
   .boxForm {
     width: 80%;
     height: auto;
@@ -84,6 +89,9 @@
     color: #122d40;
     width: 6vw;
     height: 6vw;
+  }
+  .labelIn {
+    transform: translate(-10vw, 2vh);
   }
 }
 

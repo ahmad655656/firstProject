@@ -1,32 +1,32 @@
-.h1{
-    font-size: 55px;
-    font-weight: 900;
+.h1 {
+  font-size: 55px;
+  font-weight: 900;
 }
 @media (min-width: 1201px) and (max-width: 1600px) {
-    .h1{
-        font-size: 22px !important;
-        font-weight: 900;
-        color: #173850;
-    }
+  .h1 {
+    font-size: 22px !important;
+    font-weight: 900;
+    color: #173850;
+  }
 }
 @media (min-width: 769px) and (max-width: 1200px) {
-    .h1{
-        font-size: 30px !important;
-        font-weight: 900;
-        color: #173850;
-    }
+  .h1 {
+    font-size: 30px !important;
+    font-weight: 900;
+    color: #173850;
+  }
 }
 @media (min-width: 460px) and (max-width: 768px) {
-    .h1 {
-        font-size: 30px !important;
-        font-weight: 900;
-        color: #173850;
-    }
+  .h1 {
+    font-size: 30px !important;
+    font-weight: 900;
+    color: #173850;
+  }
 }
 @media (min-width: 200px) and (max-width: 480px) {
-    .h1 {
-        font-size: 16px !important;
-        font-weight: 900;
-        color: #173850;
-    }
+  .h1 {
+    font-size: 11px !important;
+    font-weight: 900;
+    color: #173850;
+  }
 }
