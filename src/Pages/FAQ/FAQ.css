@@ -1,9 +1,8 @@
 .FAQ {
   width: 100%;
   height: auto; /* اجعل الارتفاع تلقائيًا ليناسب المحتوى */
-  padding-bottom: 50px; /* إضافة هامش سفلي لتحسين التنسيق */
+  padding-bottom: 50px; 
 }
-
 .colorIcon {
   color: white;
   font-size: 4vw; /* حجم الخط يعتمد على عرض الشاشة */
