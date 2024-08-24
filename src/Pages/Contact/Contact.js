@@ -35,45 +35,51 @@ export default function Contact(props) {
             <TitleShadow display={props.display} content={"Get in touch"} />
             <Title display={props.display} color={"white"} fontSize={"70px"} content={"with us"} />
         </Flex>
-        <Flex className={"inputs"}>
-            <Input width={"400px"} label={"Your Name"} star={"*"} />
-            <Input width={"400px"} type={"email"} label={"Your Email"} star={"*"} />
+        <Flex className={"containerInputs"} width={"500px"} display={"flex"} alignItems={"center"} gap={"20px"}>
+        <Flex alignItems={"center"} display={"flex"}  flexDirection={"column"} width={"100%"}className={"inputs"}>
+            <Input className={"labelcontact"} width={"400px"} label={"Your Name"} star={"*"} />
+            <Input className={"labelcontact"} width={"400px"} type={"email"} label={"Your Email"} star={"*"} />
         </Flex>
-        <Flex className={"inputs"}>
-            <Input width={"400px"} label={"Subject"} />
-            <Input width={"400px"} type={"text"} label={"Department"} />
+        <Flex alignItems={"center"} display={"flex"} flexDirection={"column"} width={"100%"} flexWrap={"wrap"} className={"inputs"}>
+            <Input className={"labelcontact"} width={"400px"} label={"Subject"} />
+            <Input className={"labelcontact"} width={"400px"} type={"text"} label={"Department"} />
+        </Flex>
         </Flex>
       <textarea className='textArea' placeholder='Notes about your order, e.g. special notes for delivery.' cols="30" rows="10"></textarea>
       <BigButton className={"btnSend"}>Send Now</BigButton>
       </Flex>
       <Flex className={"bigBox bigBox2"}>
-        <Flex display={"flex"} alignItems={"center"} gap={"20px"}>
-            <TitleShadow content={"Get in touch"} />
-            <Title color={"white"} fontSize={"70px"} content={"with us"} />
+      <Flex display={"flex"} alignItems={"center"} gap={"20px"}>
+            <TitleShadow display={props.display} content={"Get in touch"} />
+            <Title display={props.display} color={"white"} fontSize={"70px"} content={"with us"} />
         </Flex>
-        <Flex className={"inputs"}>
-            <Input width={"400px"} label={"Your Name"} star={"*"} />
-            <Input width={"400px"} type={"email"} label={"Your Email"} star={"*"} />
+        <Flex className={"containerInputs"} width={"500px"} display={"flex"} alignItems={"center"} gap={"20px"}>
+        <Flex alignItems={"center"} display={"flex"}  flexDirection={"column"} width={"100%"}className={"inputs"}>
+            <Input className={"labelcontact"} width={"400px"} label={"Your Name"} star={"*"} />
+            <Input className={"labelcontact"} width={"400px"} type={"email"} label={"Your Email"} star={"*"} />
         </Flex>
-        <Flex className={"inputs"}>
-            <Input width={"400px"} label={"Subject"} />
-            <Input width={"400px"} type={"text"} label={"Department"} />
+        <Flex alignItems={"center"} display={"flex"} flexDirection={"column"} width={"100%"} flexWrap={"wrap"} className={"inputs"}>
+            <Input className={"labelcontact"} width={"400px"} label={"Subject"} />
+            <Input className={"labelcontact"} width={"400px"} type={"text"} label={"Department"} />
+        </Flex>
         </Flex>
       <textarea className='textArea' placeholder='Notes about your order, e.g. special notes for delivery.' cols="30" rows="10"></textarea>
       <BigButton className={"btnSend"}>Send Now</BigButton>
       </Flex>
       <Flex className={"bigBox"}>
-        <Flex display={"flex"} alignItems={"center"} gap={"20px"}>
-            <TitleShadow content={"Get in touch"} />
-            <Title color={"white"} fontSize={"70px"} content={"with us"} />
+      <Flex display={"flex"} alignItems={"center"} gap={"20px"}>
+            <TitleShadow display={props.display} content={"Get in touch"} />
+            <Title display={props.display} color={"white"} fontSize={"70px"} content={"with us"} />
         </Flex>
-        <Flex className={"inputs"}>
-            <Input width={"400px"} label={"Your Name"} star={"*"} />
-            <Input width={"400px"} type={"email"} label={"Your Email"} star={"*"} />
+        <Flex className={"containerInputs"} width={"500px"} display={"flex"} alignItems={"center"} gap={"20px"}>
+        <Flex alignItems={"center"} display={"flex"}  flexDirection={"column"} width={"100%"}className={"inputs"}>
+            <Input className={"labelcontact"} width={"400px"} label={"Your Name"} star={"*"} />
+            <Input className={"labelcontact"} width={"400px"} type={"email"} label={"Your Email"} star={"*"} />
         </Flex>
-        <Flex className={"inputs"}>
-            <Input width={"400px"} label={"Subject"} />
-            <Input width={"400px"} type={"text"} label={"Department"} />
+        <Flex alignItems={"center"} display={"flex"} flexDirection={"column"} width={"100%"} flexWrap={"wrap"} className={"inputs"}>
+            <Input className={"labelcontact"} width={"400px"} label={"Subject"} />
+            <Input className={"labelcontact"} width={"400px"} type={"text"} label={"Department"} />
+        </Flex>
         </Flex>
       <textarea className='textArea' placeholder='Notes about your order, e.g. special notes for delivery.' cols="30" rows="10"></textarea>
       <BigButton className={"btnSend"}>Send Now</BigButton>

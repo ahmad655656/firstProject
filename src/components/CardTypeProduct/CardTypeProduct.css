@@ -113,6 +113,83 @@ a{
     cursor: pointer;
     transition: all 0.2s;
 }
+@media (min-width: 1023px) and (max-width: 1600px){
+     .DetailsCard {
+        width: 334px;
+    height: 571px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+    border-radius: 57px 0px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 80px 5px #ececec;
+    position: relative;
+    }
+
+    .photo {
+        width: 50%; 
+     height: 400px !important;
+        margin-bottom: 10px;
+     border-radius: 60px;
+    }
+
+    .h1DetailsCard {
+        font-size: 35px; 
+        width: 90%; 
+        text-align: center; 
+    }
+
+    .stars {
+        font-size: 34px; 
+        gap: 15px; 
+    }
+
+   .innerButtonIcon1,
+   .innerButtonIcon2,
+   .innerButtonIcon3 {
+       width: auto; 
+       font-size: 20px; 
+   }
+
+   .bottomButton {
+       width: auto;
+       padding: 10px; 
+       
+   }
+
+    .photo {
+        width: 50%; 
+     height: 400px !important;
+        margin-bottom: 10px;
+     border-radius: 60px;
+    }
+
+    .h1DetailsCard {
+        font-size: 35px; 
+        width: 90%; 
+        text-align: center; 
+    }
+
+    .stars {
+        font-size: 34px; 
+        gap: 15px; 
+    }
+
+   .innerButtonIcon1,
+   .innerButtonIcon2,
+   .innerButtonIcon3 {
+       width: auto; 
+       font-size: 20px; 
+   }
+
+   .bottomButton {
+       width: auto;
+       padding: 10px; 
+       
+   }
+}
 
 @media (max-width: 768px) {
     .DetailsCard {

@@ -46,32 +46,33 @@
     font-weight: 400;
     color: white;
 }
-/* Media Queries */
-@media (max-width: 1200px) {
+@media (min-width: 1023px) and (max-width: 1600px) {
     .BigCard {
-        margin-top: 60px;
-        width: 50%;
-        height: 639px;
-        padding-top: 80px;
-        padding-left: 40px;
-        padding-right: 40px;
-        transform: translateX(0);
+        width: 31.333%;
+        height: 859px;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: contain;
+        border-radius: 30px;
+        padding-top: 100px;
+        padding-left: 60px;
+        padding-right: 80px;
+        transform: translateX(204px);
+        margin-bottom: 40px;
     }
-
-
   .shopNow {
-      height: 70px !important; 
-      font-size: 22px !important; 
+      height: 60px !important; 
+      font-size: 20px !important; 
       padding: 0px 30px !important; 
       margin-top: 80px !important; 
   }
 
   .tallCardH1 {
-      font-size: 45px; 
+      font-size: 40px; 
   }
 
   .tallCardH3 {
-      font-size: 35px; 
+      font-size: 30px; 
   }
 }
 
