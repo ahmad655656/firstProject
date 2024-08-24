@@ -648,6 +648,7 @@
     padding-left: 50px;
     background-size: cover;
     width: 106vw;
+    padding-right: 117px;
   }
 
   .leftHome {
@@ -675,7 +676,7 @@
     bottom: 0;
     border: 0.5px solid #7a7a7a;
     border-radius: 40px;
-    transform: translate(35px, 28px) !important;
+    transform: translate(68px, 28px) !important;
     padding: 5px;
     padding-bottom: 0px;
   }
@@ -810,9 +811,6 @@
     display: flex;
     align-items: center;
     gap: 32px;
-    position: absolute;
-    left: -7px;
-    top: 245px;
   }
 
   .sideBarCard {
