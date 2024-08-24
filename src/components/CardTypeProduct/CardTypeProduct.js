@@ -20,7 +20,6 @@ export default function CardTypeProduct(props) {
 
   return (
     <Flex
-      key={props.key}
       onMouseOver={() => {
         setDisplayButton("flex");
       }}
