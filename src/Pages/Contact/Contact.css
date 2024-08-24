@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    max-width: 100% !important;
 }
 .iconContact{
     font-size: 100px;

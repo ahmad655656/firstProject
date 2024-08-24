@@ -103,9 +103,11 @@
 
 @media (max-width: 768px) {
     .ItSelectedList {
-        width: 90%; /* تغيير العرض ليكون أكثر مرونة */
-        min-height: auto; /* السماح للارتفاع بالتكيف */
-        padding: 10px; /* تقليل الحشو */
+        width: 90%; 
+        min-height: auto;
+        padding: 10px;
+        position: absolute;
+        top: -116px;
         animation: a 1s 0.5s ease-in-out 1 alternate forwards;
     }
     @keyframes a {
@@ -113,7 +115,7 @@
             right: -500px;
         }
         to{
-            right: 500px;
+            right: 438px;
         }
 
     }
@@ -144,8 +146,10 @@
 
 @media (max-width: 480px) {
     .ItSelectedList {
-        width: 95%; /* تغيير العرض ليكون أكثر مرونة */
-        padding: 5px; /* تقليل الحشو أكثر */
+        width: 95%; 
+        padding: 5px; 
+        position: absolute;
+        top: -116px;
         animation: a 1s 0.5s ease-in-out 1 alternate forwards;
     }
     @keyframes a {
@@ -153,7 +157,7 @@
             right: -500px;
         }
         to{
-            right: 500px;
+            right: 438px;
         }
 
     }

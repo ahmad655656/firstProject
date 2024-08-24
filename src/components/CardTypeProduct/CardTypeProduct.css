@@ -212,6 +212,10 @@ a{
    }
 
    .buttonBottom {
-       font-size: 18px; /* تقليل حجم الخط أكثر */
-   }
+    font-size: 18px;
+    width: 160px;
+    height: 59px;
+    padding: 18px;
+}
+
 }

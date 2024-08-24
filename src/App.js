@@ -14,7 +14,8 @@ import { ItemProvider } from "./Context/AddItemContext";
 import Container from "./components/Container/Container";
 function App() {
   return (
-    <ThemeProvider>
+    <div className="App">
+        <ThemeProvider>
       <TypeProvider>
         <ItemProvider>
         <Router>
@@ -34,6 +35,7 @@ function App() {
       </ItemProvider>
       </TypeProvider>
     </ThemeProvider>
+    </div>
   );
 }
 

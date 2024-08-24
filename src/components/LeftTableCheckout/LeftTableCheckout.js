@@ -9,7 +9,7 @@ export default function LeftTableCheckout() {
     <div className='LeftTableCheckout'>
       <TopBarBox title={"Billing details"} />
       <Flex display={"flex"} marginTop={"50px"} alignItems={"center"} gap={"10px"} flexDirection={"column"} width={"97%"}>
-      <Flex display={"flex"} alignItems={"center"} gap={"0px"} marginRight={"40px"} >
+      <Flex className={"firstInputs"} display={"flex"} alignItems={"center"} gap={"0px"} marginRight={"40px"} >
         <Input star={"*"} label={"First Name"} />
         <Input star={"*"} label={"Last Name"} />
       </Flex>

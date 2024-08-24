@@ -52,6 +52,7 @@ export default function Checkout() {
         </Flex>
       </Flex>
       <Flex
+      className={"flexBox"}
         position={"relative"}
         display={"flex"}
         alignItems={"center"}

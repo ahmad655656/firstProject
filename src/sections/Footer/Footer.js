@@ -16,7 +16,8 @@ import { Links } from "../../data";
 export default function Footer() {
   return (
     <div className="Footer">
-      <Flex className={"topFooter"}>
+     <Flex width={"100%"}>
+     <Flex className={"topFooter"}>
         <Flex display={"flex"} alignItems={"center"} gap={"5px"}>
           <Title fontSize={"50px"} color={"white"} content={"Subscribe to"} />
           <TitleShadow fontSize={"50px"} content={" Newsletter"} />
@@ -74,6 +75,7 @@ export default function Footer() {
             <h3>With <BiHeart /> by XtraTheme. Copyright © 2024 Xtra Theme</h3>
             <img src="https://xtratheme.com/elementor/supermarket/wp-content/uploads/sites/106/2023/05/22.png" alt="" />
       </Flex>
+     </Flex>
     </div>
   );
 }

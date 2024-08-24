@@ -54,13 +54,12 @@
 
 @media screen and (max-width: 767px) {
     .giftButton {
-        height: 43px; /* تقليل الارتفاع أكثر */
-        font-size: 18px; /* تقليل حجم الخط أكثر */
-        padding: 20px; /* تقليل الحشو أكثر */
-        gap: 4px; /* تقليل الفجوة أكثر */
-        transform: translateX(10px); /* تعديل الترجمة أكثر */
+        height: 57px;
+        font-size: 14px;
+        padding: 20px;
+        gap: 4px;
+        transform: translateX(10px);
     }
-
     .giftIcon {
         font-size: 20px; /* تقليل حجم الأيقونة أكثر */
     }

@@ -97,13 +97,11 @@
 }
 @media (max-width: 768px) {
     .imgPerson {
-        width: 80%; /* جعل العرض أكبر */
-        height: auto; /* جعل الارتفاع تلقائي */
-        margin-bottom: 20px; /* إضافة هامش سفلي */
+        width: 307px !important;
     }
     .cardProducts{
-        width: 150px !important;
-        height: 150px !important;
+        width: 130px !important;
+        height: 130px !important;
         border: 2px solid rgba(151, 150, 150, 0.15);
         border-radius: 40px;
         text-align: center;

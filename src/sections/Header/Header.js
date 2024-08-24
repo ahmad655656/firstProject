@@ -6,20 +6,22 @@ import {
   BiHeart,
   BiPhoneCall,
   BiSearch,
+  BiShoppingBag,
   BiSolidDownArrow,
 } from "react-icons/bi";
 import Flex from "../../components/Flex/Flex";
 import { CiShoppingBasket } from "react-icons/ci";
 import Line from "../../components/Line/Line";
-import { BsPerson } from "react-icons/bs";
+import { BsPerson, BsTelegram, BsWhatsapp } from "react-icons/bs";
 import ButtonIcon from "../../components/Button/ButtonIcon";
 import BigButton from "../../components/BigButton/BigButton";
 import SecondListHeader from "../../components/SecondListHeader/SecondListHeader";
 import FirstListHeader from "../../components/FirstListHeader/FirstListHeader";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ItemSelectedList from "../../components/ItemSelectedList/ItemSelectedList";
 import { CgCloseR } from "react-icons/cg";
 import { ItemContext } from "../../Context/AddItemContext";
+import { FaFacebook } from "react-icons/fa6";
 export default function Header() {
   const [borderCall, setBorderCall] = useState("rgba(175, 174, 174, 0.15)");
   const [colorButtonCall, setColorButtonCall] = useState("white");
@@ -34,7 +36,7 @@ const getTotalCount = () => {
 
   return (
     <div className="Header">
-      <Outlet />
+      <Flex width={"100%"}>
       <div className="oneSectionHeader">
         <Link to="">
           <img
@@ -56,7 +58,22 @@ const getTotalCount = () => {
           }}
           className="modileIcon"
         />
+        <Flex className={"shoppingNumber"}>
+        <Link to="cart">
+              <span className="item_count2">{getTotalCount()}</span>
+                <BiShoppingBag
+                className="iconContact"
+                  onMouseOver={() => {
+                    setDisplayListItem("flex");
+                  }}
+                  onMouseLeave={() => {
+                    setDisplayListItem("none");
+                  }}
+                />
+              </Link>
+        </Flex>
       </div>
+      </Flex>
       <div className="twoSectionHeader">
         <div className="left">
           <img
@@ -252,13 +269,21 @@ const getTotalCount = () => {
             <li className="contact">Contact</li>
           </Link>
         </ul>
-        <BigButton>
+       <Flex className={"flexIconSocial"}>
+        <Flex>
+        <FaFacebook className="iconContact" />
+        <BsWhatsapp className="iconContact"/>
+        <BsTelegram className="iconContact"/>
+        </Flex>
+       <BigButton>
           <BiGift className="giftIcon" />
           Daily Offers
         </BigButton>
+       </Flex>
       </div>
+      <Flex width={"100%"}>
       <Flex display={"flex"} className={"bottomLinks"}>
-        <Link className="linkSmallScreen" to="/react">
+        <Link className="linkSmallScreen" to="/">
           Home
         </Link>
         <Link className="linkSmallScreen" to="/faq">
@@ -270,6 +295,7 @@ const getTotalCount = () => {
         <Link className="linkSmallScreen" to="/products">
           Products
         </Link>
+      </Flex>
       </Flex>
     </div>
   );

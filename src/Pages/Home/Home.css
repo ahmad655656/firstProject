@@ -659,6 +659,7 @@
       border: 0.5px solid #7a7a7a;
       border-radius: 40px;
       padding: 5px;
+      transform: translate(35px 28px);
       padding-bottom: 0px;
   }
 
@@ -807,6 +808,7 @@
       bottom: 0;
       border: 0.5px solid #7a7a7a;
       border-radius: 40px;
+      transform: translate(35px, 28px) !important;
       padding: 5px;
       padding-bottom: 0px;
   }
@@ -835,12 +837,13 @@
     flex-direction: column;
     gap: 20px;
     padding-left: 20px;
-    height: 257vh;
+    height: 249vh;
   }
   .flexCardsInSmallScreen{
     width: 100% !important;
     display: flex;
     flex-direction: column;
+    height: 797px;
     gap: 120px;
     margin-top: 305px;
 }
@@ -882,29 +885,33 @@
     display: flex;
     align-items: start !important;
     flex-direction: column;
-    height: 80vh !important;
-    padding: 20px;
-    margin-left: 14px;
+    height: 68vh !important;
+    width: 80%;
+    margin-left: 43px;
     position: relative;
-  }
+}
 
   .titleSquare {
     font-size: 40px;
   }
 
   .descriptionSquare {
-    font-size: 20px;
-  }
+    font-size: 17px;
+}
 
-  .textSquare {
-    font-size: 15px;
-  }
+.textSquare {
+  font-size: 19px;
+  width: 226%;
+}
   .leftSectionFor{
     width: 100%;
     display: flex;
     align-items: center;
     margin-left: 20px;
   }
+  .forSectionHome img {
+    transform: translate(109px, -1px);
+}
   .appleStore, .googlePlay {
     width: 120px;
     height: auto;
@@ -921,6 +928,16 @@
   }
   .mobilePhoto{
    display: none;
+  }
+  .flexFardProduct{
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    padding-left: 48px !important;
+    gap: 26px !important;
+    margin-top: 100px !important;
+    margin-bottom: 50px !important;
   }
 
   .sideBarCard {

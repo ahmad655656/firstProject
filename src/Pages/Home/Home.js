@@ -219,6 +219,7 @@ export default function Home() {
         width={"100%"}
       >
         <Flex
+          flexWrap={"wrap"}
           width={"93%"}
           display={"flex"}
           justifyContent={"space-between"}
@@ -228,7 +229,6 @@ export default function Home() {
             <Title content={"Best Seller"} />
             <TitleShadow content={"Products"} />
           </Flex>
-            <BigButton className={"viewProduct"}>View all Products</BigButton>
           <a href="" style={{ textDecoration: "none" }}>
             <BigButton className={"viewProduct"}>View all Products</BigButton>
           </a>

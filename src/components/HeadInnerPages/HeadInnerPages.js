@@ -38,6 +38,7 @@ export default function HeadInnerPages(props) {
         alignItems={"center"}
       >
         <Flex
+        className={"flexNumberandText"}
           opacity={"0.5"}
           display={"flex"}
           alignItems={"center"}
@@ -45,15 +46,17 @@ export default function HeadInnerPages(props) {
         >
           <span className="number">1</span>
           <Title
+          className={"fontSize"}
             fontWeight={"400"}
             fontSize={"35px"}
             content={"Shopping Cart"}
           />
         </Flex>
         <BiArrowToRight className="arrowch" />
-        <Flex display={"flex"} alignItems={"center"} gap={"30px"}>
+        <Flex className={"flexNumberandText"} display={"flex"} alignItems={"center"} gap={"30px"}>
           <span className="number">2</span>
           <Title
+          className={"fontSize"}
             fontWeight={"400"}
             fontSize={"35px"}
             content={"Checkout Details"}
@@ -61,6 +64,7 @@ export default function HeadInnerPages(props) {
         </Flex>
         <BiArrowToRight className="arrowch" />
         <Flex
+        className={"flexNumberandText"}
           opacity={"0.5"}
           display={"flex"}
           alignItems={"center"}
@@ -68,6 +72,7 @@ export default function HeadInnerPages(props) {
         >
           <span className="number">3</span>
           <Title
+          className={"fontSize"}
             fontWeight={"400"}
             fontSize={"35px"}
             content={"Order Complete"}

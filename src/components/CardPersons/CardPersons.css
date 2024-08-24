@@ -181,7 +181,7 @@
 }
 
 /* للشاشات الصغيرة */
-@media (min-width: 468px) and (max-width: 991px) {
+@media (min-width: 468px) and (max-width: 768.89px) {
     .imgPerson {
         width: 350px;
         height: 300px;
@@ -218,9 +218,10 @@
 }
 
 /* للشاشات الصغيرة جدًا */
-@media screen and (max-width: 767px) {
-    .personCards {
-        margin: 20px;
+@media screen and (max-width: 467px) {
+    .sideBarCard {
+        max-height: 765px;
+        gap: 15px;
     }
 
     .imgPerson {

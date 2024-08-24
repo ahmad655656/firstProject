@@ -58,7 +58,7 @@ export default function Cart() {
           </tr>
         </tbody>
       </table>
-      <Flex width={"100%"} display={"flex"} alignItems={"start"} gap={'50px'}>
+      <Flex className={"rightleftflex"} width={"100%"} display={"flex"} alignItems={"start"} gap={'50px'}>
       <Flex className={"leftBox"}>
         <TopBarBox title={"You may be interested in ..."} />
         <Flex className={"cards"}>

@@ -134,7 +134,7 @@
     .headerCheckout {
         height: 140px;
         display: flex;
-        transform: translateY(-90px);
+        transform: translateY(41px);
         padding: 0px 15px;
         text-align: center;
         flex-direction: column;
@@ -146,12 +146,25 @@
         font-size: 28px;
     }
     .arrowRight, .arrowch {
-        font-size: 26px;
+        font-size: 20px;
     }
     .number {
-        width: 50px;
-        height: 50px;
-        font-size: 16px;
+        width: 38px;
+        height: 36px;
+        font-size: 10px;
+    }
+    .flexNumberandText{
+        gap: 5px !important;
+    }
+    .flexheadr{
+        width: 97% !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 0px !important;
+        padding-left: 0px !important;
+    }
+    .fontSize{
+        font-size: 10px !important;
     }
 }
 

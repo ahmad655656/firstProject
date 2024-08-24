@@ -70,13 +70,28 @@
 }
 
 @media (max-width: 480px) {
-    .LeftTableCheckout {
-        width: 95%; /* تغيير العرض ليكون أكثر مرونة */
-        margin: 20px auto; /* تعديل الهوامش */
-        padding: 10px; /* تقليل الحشو */
-        gap: 20px; /* تقليل الفجوة بين العناصر */
+    .LeftTableCheckout{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        padding: 10px;
+        padding-top: 30px;
+        background-color: #f1f2f6;
+        width: 100%;
+        height: 345vh;
+        margin: 100px;
+        border-radius: 40px;
+        margin-left: 0px !important;
+        flex-direction: column;
     }
-
+    .firstInputs{
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        width: 87px;
+        flex-wrap: wrap;
+        margin-right: 40px;    
+    }
     .bigLabel {
         transform: translate(5px, 10px) !important; /* تعديل الموضع */
         margin-bottom: 15px; /* تقليل الهامش السفلي */

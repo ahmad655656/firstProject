@@ -5,15 +5,35 @@
     height: 120px;
     padding: 8px;
 }
-@media (max-width: 480px) {
+@media (min-width: 468px) and (max-width: 768.98px) {
     .img{
         background-color:  rgba(1, 226, 129, .15);
         border-radius: 50%;
-        width: 84px;
-        height: 84px;
-        padding: 8px;
+        width: 74px;
+        height: 74px;
+        padding: 7px;
     }
     .h1Details{
-        font-size: 30px;
+        font-size: 18px;
+    }
+    .paraDetails{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 468px) {
+    .img{
+        background-color:  rgba(1, 226, 129, .15);
+        border-radius: 50%;
+        width: 54px;
+        height: 54px;
+        padding: 7px;
+        margin-bottom: 5px;
+    }
+    .h1Details{
+        font-size: 15px;
+    }
+    .paraDetails{
+        font-size: 11px;
     }
 }
